@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Fish Freshness",
+    "slug": "fish-freshness-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#0B3D45"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Used to photograph the fish eye and gill for freshness analysis.",
+        "NSPhotoLibraryUsageDescription": "Used to pick an existing fish photo for freshness analysis."
+      }
+    },
+    "android": {
+      "package": "com.tnovasolutions.fishfreshness",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "plugins": [
+      "expo-status-bar"
+    ]
+  }
+}
