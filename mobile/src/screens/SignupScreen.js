@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, TextInput, TouchableOpacity, StyleSheet, KeyboardAvoidingView, Platform } from "react-native";
+import { KeyboardAvoidingView, Platform, ScrollView, Text, TextInput, TouchableOpacity, StyleSheet, View } from "react-native";
 import { useAuth } from "../context/AuthContext";
 import { useToast } from "../context/ToastContext";
 import { colors, spacing, radii, typography } from "../theme/theme";
@@ -36,8 +36,9 @@ export default function SignupScreen({ navigation }) {
 
   return (
     <KeyboardAvoidingView style={styles.container} behavior={Platform.OS === "ios" ? "padding" : undefined}>
-      <Text style={styles.eyebrow}>FISH FRESHNESS</Text>
-      <Text style={typography.display}>Create your account</Text>
+      <ScrollView contentContainerStyle={styles.contentContainer} keyboardShouldPersistTaps="handled">
+        <Text style={styles.eyebrow}>FISH FRESHNESS</Text>
+        <Text style={typography.display}>Create your account</Text>
       <Text style={[typography.body, { color: colors.textSecondary, marginBottom: spacing(4) }]}>
         Start checking freshness in seconds.
       </Text>
@@ -63,12 +64,15 @@ export default function SignupScreen({ navigation }) {
       <TouchableOpacity onPress={() => navigation.navigate("Login")}>
         <Text style={styles.link}>Already have an account? Log in</Text>
       </TouchableOpacity>
+      </ScrollView>
     </KeyboardAvoidingView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: colors.background, padding: spacing(3), justifyContent: "center" },
+  scroll: { flex: 1 },
+  container: { flex: 1, backgroundColor: colors.background },
+  contentContainer: { padding: spacing(3), justifyContent: "center", flexGrow: 1 },
   eyebrow: { ...typography.caption, color: colors.accent, marginBottom: spacing(1) },
   input: {
     backgroundColor: colors.surface,

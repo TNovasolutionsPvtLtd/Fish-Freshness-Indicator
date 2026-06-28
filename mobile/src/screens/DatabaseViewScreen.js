@@ -43,10 +43,10 @@ export default function DatabaseViewScreen() {
       <Text style={typography.title}>Dataset</Text>
 
       <View style={styles.filterRow}>
-        {[null, "FRESH", "MEDIUM", "SPOILED"].map((f) => (
+        {[null, "FRESH", "MEDIUM", "SPOILED"].map((f, index) => (
           <TouchableOpacity
             key={f || "ALL"}
-            style={[styles.filterChip, filter === f && styles.filterChipActive]}
+            style={[styles.filterChip, filter === f && styles.filterChipActive, index < 3 && styles.filterChipMargin]}
             onPress={() => setFilter(f)}
           >
             <Text style={[styles.filterText, filter === f && styles.filterTextActive]}>{f || "All"}</Text>
@@ -57,6 +57,8 @@ export default function DatabaseViewScreen() {
       <FlatList
         data={images}
         keyExtractor={(item) => item._id}
+        contentContainerStyle={{ paddingBottom: spacing(4) }}
+        ListFooterComponent={<View style={{ height: spacing(4) }} />}
         renderItem={({ item }) => (
           <View style={styles.row}>
             <Image source={{ uri: item.imageUrl }} style={styles.thumb} />
@@ -88,7 +90,8 @@ export default function DatabaseViewScreen() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: colors.background, padding: spacing(3) },
-  filterRow: { flexDirection: "row", gap: spacing(1), marginVertical: spacing(2) },
+  filterRow: { flexDirection: "row", marginVertical: spacing(2) },
+  filterChipMargin: { marginRight: spacing(1) },
   filterChip: {
     paddingHorizontal: spacing(1.5),
     paddingVertical: spacing(0.75),

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, TouchableOpacity, StyleSheet, Image, ActivityIndicator } from "react-native";
+import { ScrollView, View, Text, TouchableOpacity, StyleSheet, Image, ActivityIndicator } from "react-native";
 import * as ImagePicker from "expo-image-picker";
 import api from "../services/api";
 import { useToast } from "../context/ToastContext";
@@ -51,9 +51,13 @@ export default function PhotoUploadScreen({ navigation }) {
   }
 
   return (
-    <View style={styles.container}>
+    <ScrollView
+      style={styles.scroll}
+      contentContainerStyle={styles.contentContainer}
+      keyboardShouldPersistTaps="handled"
+    >
       <Text style={typography.title}>Photograph the eye or gill</Text>
-      <Text style={[typography.body, { color: colors.textSecondary, marginBottom: spacing(3) }]}>
+      <Text style={[typography.body, { color: colors.textSecondary, marginBottom: spacing(3) }]}> 
         Use good lighting and fill the frame, as close to the eye or gill as possible.
       </Text>
 
@@ -66,7 +70,7 @@ export default function PhotoUploadScreen({ navigation }) {
       </View>
 
       <View style={styles.row}>
-        <TouchableOpacity style={styles.secondaryButton} onPress={takePhoto}>
+        <TouchableOpacity style={[styles.secondaryButton, { marginRight: spacing(1.5) }]} onPress={takePhoto}>
           <Text style={styles.secondaryButtonText}>Take photo</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.secondaryButton} onPress={pickFromLibrary}>
@@ -85,12 +89,13 @@ export default function PhotoUploadScreen({ navigation }) {
           <Text style={styles.primaryButtonText}>Analyse freshness</Text>
         )}
       </TouchableOpacity>
-    </View>
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: colors.background, padding: spacing(3) },
+  scroll: { flex: 1 },
+  contentContainer: { flexGrow: 1, backgroundColor: colors.background, padding: spacing(3), paddingBottom: spacing(18) },
   previewBox: {
     height: 240,
     borderRadius: radii.lg,
@@ -103,21 +108,27 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   preview: { width: "100%", height: "100%" },
-  row: { flexDirection: "row", gap: spacing(1.5), marginBottom: spacing(2) },
+  row: { flexDirection: "row", justifyContent: "space-between", marginBottom: spacing(2) },
   secondaryButton: {
     flex: 1,
+    minWidth: 120,
     borderWidth: 1,
     borderColor: colors.deep,
     borderRadius: radii.pill,
-    paddingVertical: spacing(1.5),
+    paddingVertical: spacing(1.25),
+    paddingHorizontal: spacing(2),
     alignItems: "center",
+    justifyContent: "center",
   },
-  secondaryButtonText: { color: colors.deep, fontWeight: "700" },
+  secondaryButtonText: { color: colors.deep, fontWeight: "700", fontSize: 13, textAlign: "center" },
   primaryButton: {
+    width: "100%",
     backgroundColor: colors.deep,
     borderRadius: radii.pill,
     paddingVertical: spacing(1.75),
     alignItems: "center",
+    justifyContent: "center",
+    marginTop: spacing(2),
   },
   primaryButtonText: { color: colors.white, fontWeight: "700", fontSize: 16 },
   disabled: { opacity: 0.5 },

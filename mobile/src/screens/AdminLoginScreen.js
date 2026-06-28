@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, TextInput, TouchableOpacity, StyleSheet } from "react-native";
+import { KeyboardAvoidingView, Platform, ScrollView, Text, TextInput, TouchableOpacity, StyleSheet, View } from "react-native";
 import { useAuth } from "../context/AuthContext";
 import { useToast } from "../context/ToastContext";
 import { colors, spacing, radii, typography } from "../theme/theme";
@@ -33,9 +33,10 @@ export default function AdminLoginScreen({ navigation }) {
   }
 
   return (
-    <View style={styles.container}>
-      <Text style={styles.eyebrow}>ADMIN AREA</Text>
-      <Text style={typography.display}>Admin login</Text>
+    <KeyboardAvoidingView style={styles.container} behavior={Platform.OS === "ios" ? "padding" : undefined}>
+      <ScrollView contentContainerStyle={styles.contentContainer} keyboardShouldPersistTaps="handled">
+        <Text style={styles.eyebrow}>ADMIN AREA</Text>
+        <Text style={typography.display}>Admin login</Text>
       <Text style={[typography.body, { color: colors.textSecondary, marginBottom: spacing(4) }]}>
         Manage the training dataset, model rollout, and users.
       </Text>
@@ -59,12 +60,14 @@ export default function AdminLoginScreen({ navigation }) {
       <TouchableOpacity onPress={() => navigation.navigate("Login")}>
         <Text style={styles.link}>Back to user login</Text>
       </TouchableOpacity>
-    </View>
+      </ScrollView>
+    </KeyboardAvoidingView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: colors.background, padding: spacing(3), justifyContent: "center" },
+  container: { flex: 1, backgroundColor: colors.background },
+  contentContainer: { padding: spacing(3), justifyContent: "center", flexGrow: 1 },
   eyebrow: { ...typography.caption, color: colors.accent, marginBottom: spacing(1) },
   input: {
     backgroundColor: colors.surface,

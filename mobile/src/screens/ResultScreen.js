@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, Image, TouchableOpacity, StyleSheet } from "react-native";
+import { ScrollView, View, Text, Image, TouchableOpacity, StyleSheet } from "react-native";
 import { colors, spacing, radii, typography, freshnessColor } from "../theme/theme";
 
 export default function ResultScreen({ route, navigation }) {
@@ -13,7 +13,7 @@ export default function ResultScreen({ route, navigation }) {
   };
 
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.scroll} contentContainerStyle={styles.container}>
       <Image source={{ uri: prediction.imageUrl }} style={styles.image} />
 
       <View style={[styles.resultCard, { borderColor: badgeColor }]}>
@@ -35,12 +35,13 @@ export default function ResultScreen({ route, navigation }) {
       <TouchableOpacity onPress={() => navigation.navigate("PhotoUpload")}>
         <Text style={styles.link}>Check another photo</Text>
       </TouchableOpacity>
-    </View>
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: colors.background, padding: spacing(3) },
+  scroll: { flex: 1 },
+  container: { backgroundColor: colors.background, padding: spacing(3) },
   image: { width: "100%", height: 220, borderRadius: radii.lg, marginBottom: spacing(2), backgroundColor: colors.border },
   resultCard: {
     flexDirection: "row",

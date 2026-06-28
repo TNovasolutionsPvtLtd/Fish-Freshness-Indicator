@@ -34,61 +34,73 @@ export default function DashboardScreen({ navigation }) {
     setRefreshing(false);
   }
 
-  return (
-    <View style={styles.container}>
-      <View style={styles.header}>
-        <View>
-          <Text style={typography.caption}>WELCOME</Text>
-          <Text style={typography.title}>{user?.name || "Angler"}</Text>
+const ListHeader = () => (
+    <>
+      <View style={styles.hero}>
+        <View style={styles.topRow}>
+          <Text style={styles.heroLabel}>WELCOME</Text>
+          <TouchableOpacity onPress={logout}>
+            <Text style={styles.logout}>Log out</Text>
+          </TouchableOpacity>
         </View>
-        <TouchableOpacity onPress={logout}>
-          <Text style={styles.logout}>Log out</Text>
-        </TouchableOpacity>
+        <Text style={styles.heroTitle}>{user?.name || "Angler"}</Text>
+        <Text style={styles.heroSubtitle}>Freshness checks are one tap away.</Text>
       </View>
+      <View style={styles.container}>
+        <TouchableOpacity style={styles.checkButton} onPress={() => navigation.navigate("PhotoUpload")}>
+          <Text style={styles.checkButtonText}>Check Freshness</Text>
+          <Text style={styles.checkButtonSub}>Photograph an eye or gill</Text>
+        </TouchableOpacity>
 
-      <TouchableOpacity style={styles.checkButton} onPress={() => navigation.navigate("PhotoUpload")}>
-        <Text style={styles.checkButtonText}>Check Freshness</Text>
-        <Text style={styles.checkButtonSub}>Photograph an eye or gill</Text>
-      </TouchableOpacity>
+        <Text style={[typography.title, { marginTop: spacing(4), marginBottom: spacing(1.5) }]}>Recent checks</Text>
+      </View>
+    </>
+  );
 
-      <Text style={[typography.title, { marginTop: spacing(4), marginBottom: spacing(1.5) }]}>
-        Recent checks
-      </Text>
-
-      <FlatList
-        data={history}
-        keyExtractor={(item) => item._id}
-        refreshControl={<RefreshControl refreshing={refreshing} onRefresh={onRefresh} />}
-        ListEmptyComponent={
-          <Text style={{ color: colors.textSecondary }}>No checks yet — tap Check Freshness to start.</Text>
-        }
-        renderItem={({ item }) => (
-          <View style={styles.historyRow}>
-            <Image source={{ uri: item.imageUrl }} style={styles.thumb} />
-            <View style={{ flex: 1, marginLeft: spacing(1.5) }}>
-              <Text style={[typography.body, { fontWeight: "600" }]}>
-                {new Date(item.createdAt).toLocaleString()}
-              </Text>
-              <Text style={{ color: colors.textSecondary, fontSize: 13 }}>{item.confidence}% confidence</Text>
-            </View>
-            <View style={[styles.badge, { backgroundColor: freshnessColor(item.result) }]}>
-              <Text style={styles.badgeText}>{item.result}</Text>
-            </View>
+  return (
+    <FlatList
+      data={history}
+      keyExtractor={(item) => item._id}
+      refreshControl={<RefreshControl refreshing={refreshing} onRefresh={onRefresh} />}
+      ListHeaderComponent={ListHeader}
+      contentContainerStyle={styles.contentContainer}
+      ListEmptyComponent={<Text style={{ color: colors.textSecondary, paddingHorizontal: spacing(2) }}>No checks yet — tap Check Freshness to start.</Text>}
+      renderItem={({ item }) => (
+        <View style={styles.historyRow}>
+          <Image source={{ uri: item.imageUrl }} style={styles.thumb} />
+          <View style={{ flex: 1, marginLeft: spacing(1.5) }}>
+            <Text style={[typography.body, { fontWeight: "600" }]}> {new Date(item.createdAt).toLocaleString()}</Text>
+            <Text style={{ color: colors.textSecondary, fontSize: 13 }}>{item.confidence}% confidence</Text>
           </View>
-        )}
-      />
-    </View>
+          <View style={[styles.badge, { backgroundColor: freshnessColor(item.result) }]}> 
+            <Text style={styles.badgeText}>{item.result}</Text>
+          </View>
+        </View>
+      )}
+      ListFooterComponent={<View style={{ height: spacing(4) }} />}
+    />
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: colors.background, padding: spacing(3) },
-  header: { flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginBottom: spacing(3) },
-  logout: { color: colors.textSecondary, fontWeight: "600" },
+  scroll: { flex: 1 },
+  contentContainer: { flexGrow: 1, backgroundColor: colors.background, paddingBottom: spacing(4) },
+  container: { backgroundColor: colors.background, paddingHorizontal: spacing(2), paddingTop: spacing(2), paddingBottom: 0 },
+  hero: {
+    backgroundColor: colors.deep,
+    // borderRadius: radii.lg,
+    padding: spacing(2),
+    marginBottom: spacing(2),
+  },
+  topRow: { flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginBottom: spacing(1.5) },
+  heroLabel: { color: colors.white, fontSize: 12, fontWeight: "600", letterSpacing: 1, marginBottom: spacing(1) },
+  heroTitle: { color: colors.white, fontSize: 22, fontWeight: "700", marginBottom: spacing(1) },
+  heroSubtitle: { color: colors.white, fontSize: 14, lineHeight: 20 },
+  logout: { color: colors.white, fontWeight: "600" },
   checkButton: {
     backgroundColor: colors.deep,
     borderRadius: radii.lg,
-    padding: spacing(3),
+    padding: spacing(2),
   },
   checkButtonText: { color: colors.white, fontSize: 20, fontWeight: "700" },
   checkButtonSub: { color: "#CFE3E6", marginTop: spacing(0.5) },
