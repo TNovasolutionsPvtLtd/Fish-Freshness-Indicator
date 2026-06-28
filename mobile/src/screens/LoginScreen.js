@@ -7,8 +7,8 @@ import { colors, spacing, radii, typography } from "../theme/theme";
 export default function LoginScreen({ navigation }) {
   const { login } = useAuth();
   const { showToast } = useToast();
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("thiba800@hotmail.com");
+  const [password, setPassword] = useState("Thiba@080494");
   const [error, setError] = useState("");
   const [submitting, setSubmitting] = useState(false);
 

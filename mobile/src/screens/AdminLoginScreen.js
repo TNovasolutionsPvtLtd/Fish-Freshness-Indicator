@@ -7,8 +7,8 @@ import { colors, spacing, radii, typography } from "../theme/theme";
 export default function AdminLoginScreen({ navigation }) {
   const { login, logout } = useAuth();
   const { showToast } = useToast();
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("admin@tnovasolutions.com");
+  const [password, setPassword] = useState("ChangeMe123!");
   const [error, setError] = useState("");
   const [submitting, setSubmitting] = useState(false);
 

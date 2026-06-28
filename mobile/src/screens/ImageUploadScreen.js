@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, TouchableOpacity, StyleSheet, Image, ActivityIndicator } from "react-native";
+import { View, Text, TouchableOpacity, StyleSheet, Image, ActivityIndicator, ScrollView } from "react-native";
 import * as ImagePicker from "expo-image-picker";
 import api from "../services/api";
 import { useToast } from "../context/ToastContext";
@@ -70,7 +70,7 @@ export default function ImageUploadScreen() {
   }
 
   return (
-    <View style={styles.container}>
+    <ScrollView style={{ flex: 1 }} contentContainerStyle={[styles.container, { flexGrow: 1 }]}>
       <Text style={typography.title}>Add a labelled training photo</Text>
 
       <TouchableOpacity style={styles.previewBox} onPress={pickImage}>
@@ -96,12 +96,12 @@ export default function ImageUploadScreen() {
       <TouchableOpacity style={styles.primaryButton} onPress={submit} disabled={loading}>
         {loading ? <ActivityIndicator color={colors.white} /> : <Text style={styles.primaryButtonText}>Add to dataset</Text>}
       </TouchableOpacity>
-    </View>
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: colors.background, padding: spacing(3) },
+  container: { backgroundColor: colors.background, padding: spacing(3) },
   previewBox: {
     height: 160,
     borderRadius: radii.lg,
@@ -115,10 +115,12 @@ const styles = StyleSheet.create({
   },
   preview: { width: "100%", height: "100%" },
   fieldLabel: { ...typography.caption, marginTop: spacing(2), marginBottom: spacing(1) },
-  chipRow: { flexDirection: "row", flexWrap: "wrap", gap: spacing(1) },
+  chipRow: { flexDirection: "row", flexWrap: "wrap" },
   chip: {
     paddingHorizontal: spacing(1.5),
     paddingVertical: spacing(1),
+    marginRight: spacing(1),
+    marginBottom: spacing(1),
     borderRadius: radii.pill,
     borderWidth: 1,
     borderColor: colors.border,
