@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import { View, Text, TextInput, TouchableOpacity, StyleSheet, Alert } from "react-native";
+import { View, Text, TextInput, TouchableOpacity, StyleSheet } from "react-native";
 import { useAuth } from "../context/AuthContext";
+import { useToast } from "../context/ToastContext";
 import { colors, spacing, radii, typography } from "../theme/theme";
 
 export default function AdminLoginScreen({ navigation }) {
   const { login, logout } = useAuth();
+  const { showToast } = useToast();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -22,7 +24,9 @@ export default function AdminLoginScreen({ navigation }) {
         setError("This account does not have admin access.");
       }
     } catch (err) {
-      setError(err?.response?.data?.error || "Could not log in.");
+      const message = err?.response?.data?.error || "Could not log in.";
+      setError(message);
+      showToast(message);
     } finally {
       setSubmitting(false);
     }

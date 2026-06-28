@@ -517,3 +517,418 @@
 {"_e":"metro:bundling:done","_t":1782656303108,"id":"1","total":451,"ms":557.273376}
 {"_e":"metro:client_log","_t":1782656304321,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
 {"_e":"metro:bundling:started","_t":1782656312979,"id":"3","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"root:init","_t":1782665442413,"format":"v0-jsonl","version":"56.1.16"}
+{"_e":"env:mode","_t":1782665442415,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1782665442419,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1782665443550,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1782665444335,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:server_log","_t":1782665445177,"level":"error","data":["An unknown error occurred while installing React Native DevTools. Details:\n\n/workspaces/Fish-Freshness-Indicator/mobile/node_modules/@react-native/debugger-shell/bin/react-native-devtools: error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory\n"]}
+{"_e":"metro:instantiate","_t":1782665457911,"atlas":false,"workers":1,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1782665466415,"id":"1","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782665466416,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782665466422,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782665466923,"id":"1","progress":0.010000000000000002,"total":1,"current":1}
+{"_e":"metro:bundling:progress","_t":1782665467184,"id":"1","progress":0.010000000000000002,"total":3,"current":1}
+{"_e":"metro:bundling:progress","_t":1782665467310,"id":"1","progress":0.04000000000000001,"total":3,"current":2}
+{"_e":"metro:bundling:progress","_t":1782665467414,"id":"1","progress":0.07438016528925619,"total":11,"current":3}
+{"_e":"metro:bundling:progress","_t":1782665467518,"id":"1","progress":0.18367346938775508,"total":14,"current":6}
+{"_e":"metro:bundling:progress","_t":1782665467624,"id":"1","progress":0.18367346938775508,"total":31,"current":8}
+{"_e":"metro:bundling:progress","_t":1782665467726,"id":"1","progress":0.18367346938775508,"total":37,"current":12}
+{"_e":"metro:bundling:progress","_t":1782665468294,"id":"1","progress":0.18367346938775508,"total":37,"current":13}
+{"_e":"metro:bundling:progress","_t":1782665468403,"id":"1","progress":0.18367346938775508,"total":40,"current":15}
+{"_e":"metro:bundling:progress","_t":1782665468516,"id":"1","progress":0.18367346938775508,"total":59,"current":19}
+{"_e":"metro:bundling:progress","_t":1782665468659,"id":"1","progress":0.18367346938775508,"total":76,"current":22}
+{"_e":"metro:bundling:progress","_t":1782665468862,"id":"1","progress":0.18367346938775508,"total":76,"current":23}
+{"_e":"metro:bundling:progress","_t":1782665469088,"id":"1","progress":0.18367346938775508,"total":76,"current":24}
+{"_e":"metro:bundling:progress","_t":1782665469328,"id":"1","progress":0.18367346938775508,"total":80,"current":26}
+{"_e":"metro:bundling:progress","_t":1782665469496,"id":"1","progress":0.18367346938775508,"total":81,"current":28}
+{"_e":"metro:bundling:progress","_t":1782665469645,"id":"1","progress":0.18367346938775508,"total":81,"current":30}
+{"_e":"metro:bundling:progress","_t":1782665469764,"id":"1","progress":0.18367346938775508,"total":81,"current":32}
+{"_e":"metro:bundling:progress","_t":1782665470217,"id":"1","progress":0.18367346938775508,"total":81,"current":33}
+{"_e":"metro:bundling:progress","_t":1782665470334,"id":"1","progress":0.18367346938775508,"total":83,"current":35}
+{"_e":"metro:bundling:progress","_t":1782665470521,"id":"1","progress":0.18367346938775508,"total":88,"current":37}
+{"_e":"metro:bundling:progress","_t":1782665470554,"id":"1","progress":0.18646694214876033,"total":88,"current":38}
+{"_e":"metro:bundling:progress","_t":1782665470667,"id":"1","progress":0.21222067920717083,"total":89,"current":41}
+{"_e":"metro:bundling:progress","_t":1782665470834,"id":"1","progress":0.2337881898321459,"total":91,"current":44}
+{"_e":"metro:bundling:progress","_t":1782665470983,"id":"1","progress":0.25552469508513465,"total":91,"current":46}
+{"_e":"metro:bundling:progress","_t":1782665471120,"id":"1","progress":0.25552469508513465,"total":95,"current":47}
+{"_e":"metro:bundling:progress","_t":1782665471225,"id":"1","progress":0.3047960069444445,"total":96,"current":53}
+{"_e":"metro:bundling:progress","_t":1782665471408,"id":"1","progress":0.3047960069444445,"total":123,"current":56}
+{"_e":"metro:bundling:progress","_t":1782665471515,"id":"1","progress":0.3047960069444445,"total":128,"current":62}
+{"_e":"metro:bundling:progress","_t":1782665471631,"id":"1","progress":0.3047960069444445,"total":131,"current":65}
+{"_e":"metro:bundling:progress","_t":1782665471750,"id":"1","progress":0.3047960069444445,"total":139,"current":69}
+{"_e":"metro:bundling:progress","_t":1782665471850,"id":"1","progress":0.3047960069444445,"total":140,"current":73}
+{"_e":"metro:bundling:progress","_t":1782665471990,"id":"1","progress":0.3047960069444445,"total":145,"current":78}
+{"_e":"metro:bundling:progress","_t":1782665472254,"id":"1","progress":0.3047960069444445,"total":151,"current":82}
+{"_e":"metro:bundling:progress","_t":1782665472265,"id":"1","progress":0.3047960069444445,"total":151,"current":83}
+{"_e":"metro:bundling:progress","_t":1782665472371,"id":"1","progress":0.3286137368655929,"total":157,"current":90}
+{"_e":"metro:bundling:progress","_t":1782665472581,"id":"1","progress":0.33595683394863884,"total":157,"current":91}
+{"_e":"metro:bundling:progress","_t":1782665472713,"id":"1","progress":0.33595683394863884,"total":175,"current":96}
+{"_e":"metro:bundling:progress","_t":1782665472813,"id":"1","progress":0.33595683394863884,"total":177,"current":99}
+{"_e":"metro:bundling:progress","_t":1782665472952,"id":"1","progress":0.33595683394863884,"total":192,"current":106}
+{"_e":"metro:bundling:progress","_t":1782665473053,"id":"1","progress":0.33595683394863884,"total":195,"current":110}
+{"_e":"metro:bundling:progress","_t":1782665473153,"id":"1","progress":0.3527274601252287,"total":197,"current":117}
+{"_e":"metro:bundling:progress","_t":1782665473277,"id":"1","progress":0.35878275657708264,"total":197,"current":118}
+{"_e":"metro:bundling:progress","_t":1782665473389,"id":"1","progress":0.35878275657708264,"total":210,"current":125}
+{"_e":"metro:bundling:progress","_t":1782665473616,"id":"1","progress":0.35878275657708264,"total":238,"current":128}
+{"_e":"metro:bundling:progress","_t":1782665473907,"id":"1","progress":0.35878275657708264,"total":244,"current":134}
+{"_e":"metro:bundling:progress","_t":1782665474013,"id":"1","progress":0.35878275657708264,"total":254,"current":142}
+{"_e":"metro:bundling:progress","_t":1782665474115,"id":"1","progress":0.35878275657708264,"total":256,"current":143}
+{"_e":"metro:bundling:progress","_t":1782665474287,"id":"1","progress":0.35878275657708264,"total":286,"current":149}
+{"_e":"metro:bundling:progress","_t":1782665474401,"id":"1","progress":0.35878275657708264,"total":286,"current":151}
+{"_e":"metro:bundling:progress","_t":1782665474782,"id":"1","progress":0.35878275657708264,"total":286,"current":152}
+{"_e":"metro:bundling:progress","_t":1782665474834,"id":"1","progress":0.35878275657708264,"total":286,"current":153}
+{"_e":"metro:bundling:progress","_t":1782665474941,"id":"1","progress":0.35878275657708264,"total":295,"current":157}
+{"_e":"metro:bundling:progress","_t":1782665474991,"id":"1","progress":0.35878275657708264,"total":295,"current":158}
+{"_e":"metro:bundling:progress","_t":1782665475115,"id":"1","progress":0.35878275657708264,"total":296,"current":159}
+{"_e":"metro:bundling:progress","_t":1782665475274,"id":"1","progress":0.35878275657708264,"total":302,"current":163}
+{"_e":"metro:bundling:progress","_t":1782665475401,"id":"1","progress":0.35878275657708264,"total":304,"current":169}
+{"_e":"metro:bundling:progress","_t":1782665475535,"id":"1","progress":0.35878275657708264,"total":307,"current":174}
+{"_e":"metro:bundling:progress","_t":1782665475639,"id":"1","progress":0.35878275657708264,"total":309,"current":180}
+{"_e":"metro:bundling:progress","_t":1782665475739,"id":"1","progress":0.36624040384998063,"total":309,"current":187}
+{"_e":"metro:bundling:progress","_t":1782665475840,"id":"1","progress":0.3820760151234277,"total":309,"current":191}
+{"_e":"metro:bundling:progress","_t":1782665475944,"id":"1","progress":0.39011950021470243,"total":309,"current":193}
+{"_e":"metro:bundling:progress","_t":1782665476046,"id":"1","progress":0.4112270093222475,"total":315,"current":202}
+{"_e":"metro:bundling:progress","_t":1782665476161,"id":"1","progress":0.42640488013613437,"total":317,"current":207}
+{"_e":"metro:bundling:progress","_t":1782665476266,"id":"1","progress":0.4486472054111783,"total":318,"current":213}
+{"_e":"metro:bundling:progress","_t":1782665476475,"id":"1","progress":0.45711206044064706,"total":318,"current":215}
+{"_e":"metro:bundling:progress","_t":1782665476585,"id":"1","progress":0.4769628906250001,"total":320,"current":221}
+{"_e":"metro:bundling:progress","_t":1782665476718,"id":"1","progress":0.4982698961937717,"total":323,"current":228}
+{"_e":"metro:bundling:progress","_t":1782665476823,"id":"1","progress":0.5272994082840237,"total":325,"current":236}
+{"_e":"metro:bundling:progress","_t":1782665476931,"id":"1","progress":0.5374778877639353,"total":326,"current":239}
+{"_e":"metro:bundling:progress","_t":1782665477037,"id":"1","progress":0.5476905236184758,"total":327,"current":242}
+{"_e":"metro:bundling:progress","_t":1782665477208,"id":"1","progress":0.5669731434240363,"total":336,"current":253}
+{"_e":"metro:bundling:progress","_t":1782665477316,"id":"1","progress":0.5850428713151926,"total":336,"current":257}
+{"_e":"metro:bundling:progress","_t":1782665477547,"id":"1","progress":0.5896045918367347,"total":336,"current":258}
+{"_e":"metro:bundling:progress","_t":1782665477658,"id":"1","progress":0.5896045918367347,"total":355,"current":267}
+{"_e":"metro:bundling:progress","_t":1782665477766,"id":"1","progress":0.5896045918367347,"total":358,"current":274}
+{"_e":"metro:bundling:progress","_t":1782665477872,"id":"1","progress":0.6083130950256438,"total":359,"current":280}
+{"_e":"metro:bundling:progress","_t":1782665478030,"id":"1","progress":0.6258176146988308,"total":359,"current":284}
+{"_e":"metro:bundling:progress","_t":1782665479094,"id":"1","progress":0.6258176146988308,"total":361,"current":284}
+{"_e":"metro:bundling:progress","_t":1782665479144,"id":"1","progress":0.6258176146988308,"total":361,"current":285}
+{"_e":"metro:bundling:progress","_t":1782665479250,"id":"1","progress":0.6270927684441199,"total":370,"current":293}
+{"_e":"metro:bundling:progress","_t":1782665479534,"id":"1","progress":0.6313805697589481,"total":370,"current":294}
+{"_e":"metro:bundling:progress","_t":1782665479660,"id":"1","progress":0.6417215863105561,"total":372,"current":298}
+{"_e":"metro:bundling:progress","_t":1782665479770,"id":"1","progress":0.6536894522408329,"total":376,"current":304}
+{"_e":"metro:bundling:progress","_t":1782665479960,"id":"1","progress":0.6536894522408329,"total":380,"current":307}
+{"_e":"metro:bundling:progress","_t":1782665480064,"id":"1","progress":0.67291259765625,"total":384,"current":315}
+{"_e":"metro:bundling:progress","_t":1782665480248,"id":"1","progress":0.6824196597353497,"total":391,"current":323}
+{"_e":"metro:bundling:progress","_t":1782665480269,"id":"1","progress":0.6866517094995455,"total":391,"current":324}
+{"_e":"metro:bundling:progress","_t":1782665480407,"id":"1","progress":0.6909503898889023,"total":397,"current":330}
+{"_e":"metro:bundling:progress","_t":1782665480533,"id":"1","progress":0.7084732708769981,"total":398,"current":335}
+{"_e":"metro:bundling:progress","_t":1782665480651,"id":"1","progress":0.7195428330981906,"total":402,"current":341}
+{"_e":"metro:bundling:progress","_t":1782665480817,"id":"1","progress":0.7407984950867552,"total":402,"current":346}
+{"_e":"metro:bundling:progress","_t":1782665480916,"id":"1","progress":0.7667136952055642,"total":402,"current":352}
+{"_e":"metro:bundling:progress","_t":1782665481016,"id":"1","progress":0.7667136952055642,"total":411,"current":359}
+{"_e":"metro:bundling:progress","_t":1782665481537,"id":"1","progress":0.7714908152331564,"total":411,"current":361}
+{"_e":"metro:bundling:progress","_t":1782665481554,"id":"1","progress":0.7757709225022348,"total":411,"current":362}
+{"_e":"metro:bundling:progress","_t":1782665481659,"id":"1","progress":0.7782971985946745,"total":416,"current":367}
+{"_e":"metro:bundling:progress","_t":1782665481766,"id":"1","progress":0.7782971985946745,"total":425,"current":369}
+{"_e":"metro:bundling:progress","_t":1782665486751,"id":"1","progress":0.7782971985946745,"total":425,"current":370}
+{"_e":"metro:bundling:progress","_t":1782665487025,"id":"1","progress":0.7782971985946745,"total":427,"current":370}
+{"_e":"metro:bundling:progress","_t":1782665487061,"id":"1","progress":0.7782971985946745,"total":427,"current":371}
+{"_e":"metro:bundling:progress","_t":1782665487160,"id":"1","progress":0.7782971985946745,"total":431,"current":379}
+{"_e":"metro:bundling:progress","_t":1782665487269,"id":"1","progress":0.7782971985946745,"total":434,"current":381}
+{"_e":"metro:bundling:progress","_t":1782665487369,"id":"1","progress":0.778785916031345,"total":434,"current":383}
+{"_e":"metro:bundling:progress","_t":1782665487476,"id":"1","progress":0.778785916031345,"total":443,"current":389}
+{"_e":"metro:bundling:progress","_t":1782665488309,"id":"1","progress":0.7826952669849213,"total":451,"current":399}
+{"_e":"metro:bundling:progress","_t":1782665488401,"id":"1","progress":0.7866234679278864,"total":451,"current":400}
+{"_e":"metro:bundling:progress","_t":1782665488506,"id":"1","progress":0.8036688078557704,"total":454,"current":407}
+{"_e":"metro:bundling:progress","_t":1782665488607,"id":"1","progress":0.8123701523545706,"total":456,"current":411}
+{"_e":"metro:bundling:progress","_t":1782665488748,"id":"1","progress":0.8250033370835796,"total":458,"current":416}
+{"_e":"metro:bundling:progress","_t":1782665488899,"id":"1","progress":0.845277932039434,"total":459,"current":422}
+{"_e":"metro:bundling:progress","_t":1782665489005,"id":"1","progress":0.8576370510396976,"total":460,"current":426}
+{"_e":"metro:bundling:progress","_t":1782665489110,"id":"1","progress":0.8908424259104628,"total":463,"current":437}
+{"_e":"metro:bundling:progress","_t":1782665489226,"id":"1","progress":0.8908424259104628,"total":470,"current":442}
+{"_e":"metro:bundling:progress","_t":1782665489348,"id":"1","progress":0.8908424259104628,"total":482,"current":449}
+{"_e":"metro:bundling:progress","_t":1782665489454,"id":"1","progress":0.8908424259104628,"total":494,"current":454}
+{"_e":"metro:bundling:progress","_t":1782665489554,"id":"1","progress":0.8908424259104628,"total":496,"current":459}
+{"_e":"metro:bundling:progress","_t":1782665489743,"id":"1","progress":0.8908424259104628,"total":498,"current":462}
+{"_e":"metro:bundling:progress","_t":1782665489866,"id":"1","progress":0.8908424259104628,"total":502,"current":466}
+{"_e":"metro:bundling:progress","_t":1782665490009,"id":"1","progress":0.8908424259104628,"total":503,"current":469}
+{"_e":"metro:bundling:progress","_t":1782665490122,"id":"1","progress":0.8908424259104628,"total":503,"current":471}
+{"_e":"metro:bundling:progress","_t":1782665490234,"id":"1","progress":0.8955254556162033,"total":503,"current":476}
+{"_e":"metro:bundling:progress","_t":1782665490362,"id":"1","progress":0.9034408391334182,"total":505,"current":480}
+{"_e":"metro:bundling:progress","_t":1782665490463,"id":"1","progress":0.953131590870034,"total":506,"current":494}
+{"_e":"metro:bundling:progress","_t":1782665490573,"id":"1","progress":0.9610174220348442,"total":508,"current":498}
+{"_e":"metro:bundling:progress","_t":1782665490756,"id":"1","progress":0.9648808047616095,"total":508,"current":499}
+{"_e":"metro:bundling:progress","_t":1782665490871,"id":"1","progress":0.968873510188389,"total":510,"current":502}
+{"_e":"metro:bundling:progress","_t":1782665490999,"id":"1","progress":0.9691733433876897,"total":515,"current":507}
+{"_e":"metro:bundling:progress","_t":1782665491148,"id":"1","progress":0.9768793942671714,"total":516,"current":510}
+{"_e":"metro:bundling:progress","_t":1782665491269,"id":"1","progress":0.9961352693152354,"total":517,"current":516}
+{"_e":"metro:bundling:progress","_t":1782665491372,"id":"1","progress":0.999,"total":517,"current":517}
+{"_e":"metro:bundling:done","_t":1782665491740,"id":"1","total":517,"ms":25324.315066}
+{"_e":"metro:client_log","_t":1782665493154,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:bundling:started","_t":1782665561795,"id":"3","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782665561795,"id":"3","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782665561839,"id":"3","total":1,"ms":43.577369}
+{"_e":"metro:client_log","_t":1782665563099,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:bundling:started","_t":1782665571956,"id":"5","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782665677872,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"metro:bundling:failed","_t":1782665917930,"id":null,"message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Unterminated string constant. (6:28)\n\n  4 | // Point this at your backend. When testing on a physical device with Expo Go,\n  5 | // use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\n> 6 | export const API_BASE_URL = \";\n    |                             ^\n  7 |\n  8 | const api = axios.create({ baseURL: API_BASE_URL });\n  9 |","importStack":null,"filename":"src/services/api.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1782665918035,"level":"error","data":["[TransformError: Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Unterminated string constant. (6:28)\n\n  4 | // Point this at your backend. When testing on a physical device with Expo Go,\n  5 | // use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\n> 6 | export const API_BASE_URL = \";\n    |                             ^\n  7 |\n  8 | const api = axios.create({ baseURL: API_BASE_URL });\n  9 |]"]}
+{"_e":"metro:bundling:started","_t":1782665920118,"id":"6","platform":"web","environment":null,"entry":"src/services/api.js"}
+{"_e":"metro:bundling:started","_t":1782665923589,"id":"7","platform":"web","environment":null,"entry":"src/services/api.js"}
+{"_e":"metro:bundling:started","_t":1782665926238,"id":"8","platform":"web","environment":null,"entry":"src/services/api.js"}
+{"_e":"root:init","_t":1782666004900,"format":"v0-jsonl","version":"56.1.16"}
+{"_e":"env:mode","_t":1782666004901,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1782666004904,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1782666005249,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1782666005814,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:server_log","_t":1782666006134,"level":"error","data":["An unknown error occurred while installing React Native DevTools. Details:\n\n/workspaces/Fish-Freshness-Indicator/mobile/node_modules/@react-native/debugger-shell/bin/react-native-devtools: error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory\n"]}
+{"_e":"metro:instantiate","_t":1782666009897,"atlas":false,"workers":1,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1782666017256,"id":"1","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782666017256,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782666017264,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782666017364,"id":"1","progress":0.25729888678848983,"total":138,"current":70}
+{"_e":"metro:bundling:progress","_t":1782666017465,"id":"1","progress":0.3359895058344428,"total":226,"current":131}
+{"_e":"metro:bundling:progress","_t":1782666017565,"id":"1","progress":0.5900021003990757,"total":345,"current":265}
+{"_e":"metro:bundling:progress","_t":1782666017670,"id":"1","progress":0.7620262975778547,"total":425,"current":371}
+{"_e":"metro:bundling:progress","_t":1782666017776,"id":"1","progress":0.9610174220348442,"total":508,"current":498}
+{"_e":"metro:bundling:done","_t":1782666017851,"id":"1","total":508,"ms":593.264033}
+{"_e":"metro:client_log","_t":1782666019108,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:bundling:started","_t":1782666029433,"id":"3","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782666030937,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"metro:client_log","_t":1782666097282,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:client_log","_t":1782666097286,"level":"warn","data":["Image: style.resizeMode is deprecated. Please use props.resizeMode."]}
+{"_e":"metro:client_log","_t":1782666097293,"level":"warn","data":["Image: style.tintColor is deprecated. Please use props.tintColor."]}
+{"_e":"metro:client_log","_t":1782666142150,"level":"warn","data":["Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md"]}
+{"_e":"metro:bundling:started","_t":1782666303584,"id":"5","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782666303584,"id":"5","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782666303606,"id":"5","total":1,"ms":21.482975}
+{"_e":"metro:bundling:started","_t":1782666304477,"id":"6","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782666304964,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1782666319144,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"metro:client_log","_t":1782666354192,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:client_log","_t":1782666354198,"level":"warn","data":["Image: style.resizeMode is deprecated. Please use props.resizeMode."]}
+{"_e":"metro:client_log","_t":1782666354200,"level":"warn","data":["Image: style.tintColor is deprecated. Please use props.tintColor."]}
+{"_e":"metro:client_log","_t":1782666464849,"level":"warn","data":["Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md"]}
+{"_e":"metro:bundling:started","_t":1782666828250,"id":"a","platform":"web","environment":null,"entry":"src/services/api.js"}
+{"_e":"metro:bundling:failed","_t":1782666830393,"id":null,"message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Unexpected keyword 'export'. (8:0)\n\n   6 | const \n   7 |\n>  8 | export const API_BASE_URL = \"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\";\n     | ^\n   9 |\n  10 | const api = axios.create({ baseURL: API_BASE_URL });\n  11 |","importStack":null,"filename":"src/services/api.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1782666830541,"level":"error","data":["[TransformError: Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Unexpected keyword 'export'. (8:0)\n\n   6 | const \n   7 |\n>  8 | export const API_BASE_URL = \"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\";\n     | ^\n   9 |\n  10 | const api = axios.create({ baseURL: API_BASE_URL });\n  11 |]"]}
+{"_e":"metro:bundling:failed","_t":1782666835058,"id":null,"message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Missing initializer in const declaration. (6:13)\n\n  4 | // Point this at your backend. When testing on a physical device with Expo Go,\n  5 | // use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\n> 6 | const current\n    |              ^\n  7 |\n  8 | export const API_BASE_URL = \"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\";\n  9 |","importStack":null,"filename":"src/services/api.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1782666835158,"level":"error","data":["[TransformError: Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Missing initializer in const declaration. (6:13)\n\n  4 | // Point this at your backend. When testing on a physical device with Expo Go,\n  5 | // use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\n> 6 | const current\n    |              ^\n  7 |\n  8 | export const API_BASE_URL = \"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\";\n  9 |]"]}
+{"_e":"metro:bundling:failed","_t":1782666837570,"id":null,"message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Missing initializer in const declaration. (6:16)\n\n  4 | // Point this at your backend. When testing on a physical device with Expo Go,\n  5 | // use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\n> 6 | const currentURL\n    |                 ^\n  7 |\n  8 | export const API_BASE_URL = \"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\";\n  9 |","importStack":null,"filename":"src/services/api.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1782666837671,"level":"error","data":["[TransformError: Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Missing initializer in const declaration. (6:16)\n\n  4 | // Point this at your backend. When testing on a physical device with Expo Go,\n  5 | // use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\n> 6 | const currentURL\n    |                 ^\n  7 |\n  8 | export const API_BASE_URL = \"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\";\n  9 |]"]}
+{"_e":"metro:bundling:failed","_t":1782666845632,"id":null,"message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Missing initializer in const declaration. (6:14)\n\n  4 | // Point this at your backend. When testing on a physical device with Expo Go,\n  5 | // use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\n> 6 | const currentU\n    |               ^\n  7 |\n  8 | export const API_BASE_URL = \"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\";\n  9 |","importStack":null,"filename":"src/services/api.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1782666845733,"level":"error","data":["[TransformError: Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Missing initializer in const declaration. (6:14)\n\n  4 | // Point this at your backend. When testing on a physical device with Expo Go,\n  5 | // use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\n> 6 | const currentU\n    |               ^\n  7 |\n  8 | export const API_BASE_URL = \"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\";\n  9 |]"]}
+{"_e":"metro:bundling:started","_t":1782666848744,"id":"b","platform":"web","environment":null,"entry":"src/services/api.js"}
+{"_e":"metro:bundling:failed","_t":1782666853964,"id":null,"message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Missing initializer in const declaration. (6:14)\n\n  4 | // Point this at your backend. When testing on a physical device with Expo Go,\n  5 | // use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\n> 6 | const currentU\n    |               ^\n  7 |\n  8 | export const API_BASE_URL = \"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\";\n  9 |","importStack":null,"filename":"src/services/api.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1782666854070,"level":"error","data":["[TransformError: Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Missing initializer in const declaration. (6:14)\n\n  4 | // Point this at your backend. When testing on a physical device with Expo Go,\n  5 | // use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\n> 6 | const currentU\n    |               ^\n  7 |\n  8 | export const API_BASE_URL = \"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\";\n  9 |]"]}
+{"_e":"metro:bundling:failed","_t":1782666856306,"id":null,"message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Missing initializer in const declaration. (6:16)\n\n  4 | // Point this at your backend. When testing on a physical device with Expo Go,\n  5 | // use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\n> 6 | const currentUrl\n    |                 ^\n  7 |\n  8 | export const API_BASE_URL = \"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\";\n  9 |","importStack":null,"filename":"src/services/api.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1782666856418,"level":"error","data":["[TransformError: Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Missing initializer in const declaration. (6:16)\n\n  4 | // Point this at your backend. When testing on a physical device with Expo Go,\n  5 | // use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\n> 6 | const currentUrl\n    |                 ^\n  7 |\n  8 | export const API_BASE_URL = \"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\";\n  9 |]"]}
+{"_e":"metro:bundling:failed","_t":1782666857716,"id":null,"message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Unexpected token (8:0)\n\n   6 | const currentUrl=\n   7 |\n>  8 | export const API_BASE_URL = \"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\";\n     | ^\n   9 |\n  10 | const api = axios.create({ baseURL: API_BASE_URL });\n  11 |","importStack":null,"filename":"src/services/api.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1782666857851,"level":"error","data":["[TransformError: Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Unexpected token (8:0)\n\n   6 | const currentUrl=\n   7 |\n>  8 | export const API_BASE_URL = \"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\";\n     | ^\n   9 |\n  10 | const api = axios.create({ baseURL: API_BASE_URL });\n  11 |]"]}
+{"_e":"metro:client_log","_t":1782667075904,"level":"error","data":["[ReferenceError: w is not defined]","\n\n\u001b[1mCode: api.js\u001b[22m\n\u001b[0m \u001b[90m 4 |\u001b[39m \u001b[90m// Point this at your backend. When testing on a physical device with Expo Go,\u001b[39m\n \u001b[90m 5 |\u001b[39m \u001b[90m// use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 6 |\u001b[39m \u001b[36mconst\u001b[39m currentUrl\u001b[33m=\u001b[39mw\n \u001b[90m   |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 7 |\u001b[39m\n \u001b[90m 8 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mAPI_BASE_URL\u001b[39m \u001b[33m=\u001b[39m \u001b[32m\"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\"\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 9 |\u001b[39m\u001b[0m\n\u001b[1mCall Stack\u001b[22m\n\u001b[90m  <global> (\u001b]8;;src/services/api.js:6:18\u0007src/services/api.js:6:18\u001b]8;;\u0007)\u001b[39m"]}
+{"_e":"metro:bundling:started","_t":1782667076614,"id":"d","platform":"web","environment":null,"entry":"src/services/api.js"}
+{"_e":"metro:client_log","_t":1782667077983,"level":"error","data":["[ReferenceError: curre is not defined]","\n\n\u001b[1mCode: api.js\u001b[22m\n\u001b[0m \u001b[90m  5 |\u001b[39m \u001b[90m// use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\u001b[39m\n \u001b[90m  6 |\u001b[39m \u001b[36mconst\u001b[39m currentUrl\u001b[33m=\u001b[39mwindow\u001b[33m.\u001b[39mlocation\u001b[33m.\u001b[39morign \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  7 |\u001b[39m console\u001b[33m.\u001b[39mlog(\u001b[32m\"current>\"\u001b[39m\u001b[33m,\u001b[39mcurre)\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  8 |\u001b[39m\n \u001b[90m  9 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mAPI_BASE_URL\u001b[39m \u001b[33m=\u001b[39m \u001b[32m\"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\"\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 10 |\u001b[39m\u001b[0m\n\u001b[1mCall Stack\u001b[22m\n\u001b[90m  <global> (\u001b]8;;src/services/api.js:7:24\u0007src/services/api.js:7:24\u001b]8;;\u0007)\u001b[39m"]}
+{"_e":"metro:bundling:started","_t":1782667078214,"id":"f","platform":"web","environment":null,"entry":"src/services/api.js"}
+{"_e":"metro:bundling:failed","_t":1782667085494,"id":null,"message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Identifier 'currentUrl' has already been declared. (7:6)\n\n   5 | // use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\n   6 | const currentUrl=window.location.orign \n>  7 | const currentUrl = window.location.origin;\n     |       ^\n   8 |\n   9 | const backendUrl = currentUrl.replace(\":5173\", \":5000\")\n  10 |","importStack":null,"filename":"src/services/api.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1782667085594,"level":"error","data":["[TransformError: Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Identifier 'currentUrl' has already been declared. (7:6)\n\n   5 | // use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\n   6 | const currentUrl=window.location.orign \n>  7 | const currentUrl = window.location.origin;\n     |       ^\n   8 |\n   9 | const backendUrl = currentUrl.replace(\":5173\", \":5000\")\n  10 |]"]}
+{"_e":"metro:bundling:failed","_t":1782667088512,"id":null,"message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Identifier 'currentUrl' has already been declared. (7:6)\n\n   5 | // use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\n   6 | const currentUrl = window.location.orign\n>  7 | const currentUrl = window.location.origin;\n     |       ^\n   8 |\n   9 | const backendUrl = currentUrl.replace(\":5173\", \":5000\")\n  10 |","importStack":null,"filename":"src/services/api.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1782667088613,"level":"error","data":["[TransformError: Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Identifier 'currentUrl' has already been declared. (7:6)\n\n   5 | // use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\n   6 | const currentUrl = window.location.orign\n>  7 | const currentUrl = window.location.origin;\n     |       ^\n   8 |\n   9 | const backendUrl = currentUrl.replace(\":5173\", \":5000\")\n  10 |]"]}
+{"_e":"metro:bundling:failed","_t":1782667090984,"id":null,"message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Identifier 'currentUrl' has already been declared. (7:6)\n\n   5 | // use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\n   6 | const currentUrl = window.location.orign\n>  7 | const currentUrl = window.location.origin;\n     |       ^\n   8 |\n   9 | const backendUrl = currentUrl.replace(\":5173\", \":5000\")\n  10 |","importStack":null,"filename":"src/services/api.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1782667091091,"level":"error","data":["[TransformError: Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Identifier 'currentUrl' has already been declared. (7:6)\n\n   5 | // use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\n   6 | const currentUrl = window.location.orign\n>  7 | const currentUrl = window.location.origin;\n     |       ^\n   8 |\n   9 | const backendUrl = currentUrl.replace(\":5173\", \":5000\")\n  10 |]"]}
+{"_e":"root:init","_t":1782667106023,"format":"v0-jsonl","version":"56.1.16"}
+{"_e":"env:mode","_t":1782667106024,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1782667106027,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1782667106335,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1782667106840,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:server_log","_t":1782667107122,"level":"error","data":["An unknown error occurred while installing React Native DevTools. Details:\n\n/workspaces/Fish-Freshness-Indicator/mobile/node_modules/@react-native/debugger-shell/bin/react-native-devtools: error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory\n"]}
+{"_e":"metro:instantiate","_t":1782667111372,"atlas":false,"workers":1,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1782667136754,"id":"1","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782667136755,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782667136762,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782667137011,"id":"1","progress":0.17122473246135553,"total":87,"current":36}
+{"_e":"metro:bundling:progress","_t":1782667137017,"id":"1","progress":0.1808693354472189,"total":87,"current":37}
+{"_e":"metro:bundling:progress","_t":1782667137120,"id":"1","progress":0.31133165301407273,"total":276,"current":154}
+{"_e":"metro:bundling:progress","_t":1782667137236,"id":"1","progress":0.83551025390625,"total":384,"current":351}
+{"_e":"metro:bundling:failed","_t":1782667137302,"id":"1","message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/services/api.js: Identifier 'currentUrl' has already been declared. (7:6)\n\n   5 | // use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\n   6 | const currentUrl = window.location.orign\n>  7 | const currentUrl = window.location.origin;\n     |       ^\n   8 |\n   9 | const backendUrl = currentUrl.replace(\":8081\", \":5000\")\n  10 |","importStack":null,"filename":"src/services/api.js","targetModuleName":null,"originModulePath":null}
+{"_e":"root:init","_t":1782667151549,"format":"v0-jsonl","version":"56.1.16"}
+{"_e":"env:mode","_t":1782667151550,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1782667151553,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1782667151804,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1782667152296,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:server_log","_t":1782667152541,"level":"error","data":["An unknown error occurred while installing React Native DevTools. Details:\n\n/workspaces/Fish-Freshness-Indicator/mobile/node_modules/@react-native/debugger-shell/bin/react-native-devtools: error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory\n"]}
+{"_e":"metro:instantiate","_t":1782667156558,"atlas":false,"workers":1,"host":"::","port":8081}
+{"_e":"root:init","_t":1782667725477,"format":"v0-jsonl","version":"56.1.16"}
+{"_e":"env:mode","_t":1782667725477,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1782667725481,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1782667725844,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1782667726408,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:server_log","_t":1782667726696,"level":"error","data":["An unknown error occurred while installing React Native DevTools. Details:\n\n/workspaces/Fish-Freshness-Indicator/mobile/node_modules/@react-native/debugger-shell/bin/react-native-devtools: error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory\n"]}
+{"_e":"metro:instantiate","_t":1782667730928,"atlas":false,"workers":1,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1782667734825,"id":"1","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782667734826,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782667734836,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782667734935,"id":"1","progress":0.21301775147928997,"total":91,"current":42}
+{"_e":"metro:bundling:progress","_t":1782667735038,"id":"1","progress":0.3369900890548693,"total":236,"current":137}
+{"_e":"metro:bundling:progress","_t":1782667735138,"id":"1","progress":0.6270927684441199,"total":370,"current":293}
+{"_e":"metro:bundling:progress","_t":1782667735246,"id":"1","progress":0.8610867451040216,"total":458,"current":425}
+{"_e":"metro:bundling:done","_t":1782667735356,"id":"1","total":458,"ms":530.712792}
+{"_e":"metro:bundling:started","_t":1782667735960,"id":"2","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782667736393,"level":"log","data":["currentUrl","https://glowing-couscous-9669vjjv97qxh77jx-8081.app.github.dev"]}
+{"_e":"metro:client_log","_t":1782667736396,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1782667736425,"level":"error","data":["[SyntaxError: \"undefined\" is not valid JSON]","\n\n\u001b[1mCode: AuthContext.js\u001b[22m\n\u001b[0m \u001b[90m 16 |\u001b[39m       \u001b[36mif\u001b[39m (storedToken \u001b[33m&&\u001b[39m storedUser) {\n \u001b[90m 17 |\u001b[39m         setToken(storedToken)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 18 |\u001b[39m         setUser(\u001b[33mJSON\u001b[39m\u001b[33m.\u001b[39mparse(storedUser))\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 19 |\u001b[39m       }\n \u001b[90m 20 |\u001b[39m       setLoading(\u001b[36mfalse\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 21 |\u001b[39m     })()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[1mCall Stack\u001b[22m\n\u001b[90m  <anonymous> (\u001b]8;;src/context/AuthContext.js:18:22\u0007src/context/AuthContext.js:18:22\u001b]8;;\u0007)\u001b[39m"]}
+{"_e":"metro:client_log","_t":1782667754472,"level":"error","data":["[TypeError: Cannot read properties of undefined (reading 'PROD')]","\n\n\u001b[1mCode: api.js\u001b[22m\n\u001b[0m \u001b[90m 12 |\u001b[39m\n \u001b[90m 13 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mAPI_BASE_URL\u001b[39m \u001b[33m=\u001b[39m \u001b[36mimport\u001b[39m\u001b[33m.\u001b[39mmeta\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mPROD\u001b[39m \u001b[33m?\u001b[39m prodUrl \u001b[33m:\u001b[39m \u001b[32m`${backendUrl}/`\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m \u001b[90m// export const API_BASE_URL = \"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\";\u001b[39m\n \u001b[90m 16 |\u001b[39m\n \u001b[90m 17 |\u001b[39m \u001b[36mconst\u001b[39m api \u001b[33m=\u001b[39m axios\u001b[33m.\u001b[39mcreate({ baseURL\u001b[33m:\u001b[39m \u001b[33mAPI_BASE_URL\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[1mCall Stack\u001b[22m\n\u001b[90m  <global> (\u001b]8;;src/services/api.js:14:45\u0007src/services/api.js:14:45\u001b]8;;\u0007)\u001b[39m"]}
+{"_e":"metro:bundling:started","_t":1782667754702,"id":"6","platform":"web","environment":null,"entry":"src/services/api.js"}
+{"_e":"metro:client_log","_t":1782667763257,"level":"error","data":["[ReferenceError: c is not defined]","\n\n\u001b[1mCode: api.js\u001b[22m\n\u001b[0m \u001b[90m  5 |\u001b[39m \u001b[90m// use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\u001b[39m\n \u001b[90m  6 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  7 |\u001b[39m c\n \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  8 |\u001b[39m \u001b[90m// export const API_BASE_URL = \"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\";\u001b[39m\n \u001b[90m  9 |\u001b[39m\n \u001b[90m 10 |\u001b[39m \u001b[36mconst\u001b[39m api \u001b[33m=\u001b[39m axios\u001b[33m.\u001b[39mcreate({ baseURL\u001b[33m:\u001b[39m \u001b[33mAPI_BASE_URL\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[1mCall Stack\u001b[22m\n\u001b[90m  <global> (\u001b]8;;src/services/api.js:7\u0007src/services/api.js:7\u001b]8;;\u0007)\u001b[39m"]}
+{"_e":"metro:bundling:started","_t":1782667763420,"id":"8","platform":"web","environment":null,"entry":"src/services/api.js"}
+{"_e":"metro:client_log","_t":1782667766238,"level":"error","data":["[ReferenceError: c is not defined]","\n\n\u001b[1mCode: api.js\u001b[22m\n\u001b[0m \u001b[90m  5 |\u001b[39m \u001b[90m// use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\u001b[39m\n \u001b[90m  6 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  7 |\u001b[39m c\n \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  8 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mAPI_BASE_URL\u001b[39m \u001b[33m=\u001b[39m \u001b[32m\"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\"\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m  9 |\u001b[39m\n \u001b[90m 10 |\u001b[39m \u001b[36mconst\u001b[39m api \u001b[33m=\u001b[39m axios\u001b[33m.\u001b[39mcreate({ baseURL\u001b[33m:\u001b[39m \u001b[33mAPI_BASE_URL\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[1mCall Stack\u001b[22m\n\u001b[90m  <global> (\u001b]8;;src/services/api.js:7\u0007src/services/api.js:7\u001b]8;;\u0007)\u001b[39m"]}
+{"_e":"metro:bundling:started","_t":1782667766272,"id":"a","platform":"web","environment":null,"entry":"src/services/api.js"}
+{"_e":"root:init","_t":1782667774239,"format":"v0-jsonl","version":"56.1.16"}
+{"_e":"env:mode","_t":1782667774240,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1782667774244,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1782667774585,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1782667775072,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:server_log","_t":1782667775370,"level":"error","data":["An unknown error occurred while installing React Native DevTools. Details:\n\n/workspaces/Fish-Freshness-Indicator/mobile/node_modules/@react-native/debugger-shell/bin/react-native-devtools: error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory\n"]}
+{"_e":"metro:instantiate","_t":1782667779819,"atlas":false,"workers":1,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1782667797639,"id":"1","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782667797639,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782667797663,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782667797763,"id":"1","progress":0.19140625,"total":48,"current":21}
+{"_e":"metro:bundling:progress","_t":1782667797865,"id":"1","progress":0.3669563609467455,"total":104,"current":63}
+{"_e":"metro:bundling:progress","_t":1782667797965,"id":"1","progress":0.3669563609467455,"total":198,"current":105}
+{"_e":"metro:bundling:progress","_t":1782667798065,"id":"1","progress":0.3669563609467455,"total":305,"current":168}
+{"_e":"metro:bundling:progress","_t":1782667798165,"id":"1","progress":0.7076716605646773,"total":422,"current":355}
+{"_e":"metro:bundling:progress","_t":1782667798266,"id":"1","progress":0.8526437304890738,"total":496,"current":458}
+{"_e":"metro:bundling:progress","_t":1782667798366,"id":"1","progress":0.999,"total":517,"current":517}
+{"_e":"metro:bundling:done","_t":1782667798401,"id":"1","total":517,"ms":761.658836}
+{"_e":"metro:bundling:started","_t":1782667799171,"id":"2","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782667799664,"level":"error","data":["[ReferenceError: c is not defined]","\n\n\u001b[1mCode: api.js\u001b[22m\n\u001b[0m \u001b[90m  5 |\u001b[39m \u001b[90m// use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\u001b[39m\n \u001b[90m  6 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  7 |\u001b[39m c\n \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  8 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mAPI_BASE_URL\u001b[39m \u001b[33m=\u001b[39m \u001b[32m\"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\"\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m  9 |\u001b[39m\n \u001b[90m 10 |\u001b[39m \u001b[36mconst\u001b[39m api \u001b[33m=\u001b[39m axios\u001b[33m.\u001b[39mcreate({ baseURL\u001b[33m:\u001b[39m \u001b[33mAPI_BASE_URL\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[1mCall Stack\u001b[22m\n\u001b[90m  <global> (\u001b]8;;src/services/api.js:7\u0007src/services/api.js:7\u001b]8;;\u0007)\u001b[39m\n\u001b[90m  <global> (\u001b]8;;src/context/AuthContext.js:3\u0007src/context/AuthContext.js:3\u001b]8;;\u0007)\u001b[39m\n\u001b[90m  <global> (\u001b]8;;App.js:3\u0007App.js:3\u001b]8;;\u0007)\u001b[39m"]}
+{"_e":"metro:bundling:started","_t":1782667814068,"id":"5","platform":"web","environment":null,"entry":"src/services/api.js"}
+{"_e":"metro:bundling:started","_t":1782667814134,"id":"6","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782667814134,"id":"6","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782667814169,"id":"6","total":1,"ms":35.612743}
+{"_e":"metro:bundling:started","_t":1782667814820,"id":"7","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782667815216,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1782667815273,"level":"error","data":["[SyntaxError: \"undefined\" is not valid JSON]","\n\n\u001b[1mCode: AuthContext.js\u001b[22m\n\u001b[0m \u001b[90m 16 |\u001b[39m       \u001b[36mif\u001b[39m (storedToken \u001b[33m&&\u001b[39m storedUser) {\n \u001b[90m 17 |\u001b[39m         setToken(storedToken)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 18 |\u001b[39m         setUser(\u001b[33mJSON\u001b[39m\u001b[33m.\u001b[39mparse(storedUser))\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 19 |\u001b[39m       }\n \u001b[90m 20 |\u001b[39m       setLoading(\u001b[36mfalse\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 21 |\u001b[39m     })()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[1mCall Stack\u001b[22m\n\u001b[90m  <anonymous> (\u001b]8;;src/context/AuthContext.js:18:22\u0007src/context/AuthContext.js:18:22\u001b]8;;\u0007)\u001b[39m"]}
+{"_e":"metro:bundling:started","_t":1782667844030,"id":"a","platform":"web","environment":null,"entry":"src/context/AuthContext.js"}
+{"_e":"metro:client_log","_t":1782667844124,"level":"warn","data":["Failed to parse stored user data","[SyntaxError: \"undefined\" is not valid JSON]"]}
+{"_e":"root:init","_t":1782667870395,"format":"v0-jsonl","version":"56.1.16"}
+{"_e":"env:mode","_t":1782667870396,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1782667870398,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1782667870709,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1782667871243,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:server_log","_t":1782667871519,"level":"error","data":["An unknown error occurred while installing React Native DevTools. Details:\n\n/workspaces/Fish-Freshness-Indicator/mobile/node_modules/@react-native/debugger-shell/bin/react-native-devtools: error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory\n"]}
+{"_e":"metro:instantiate","_t":1782667875598,"atlas":false,"workers":1,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1782667880879,"id":"1","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782667880879,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782667880887,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782667880987,"id":"1","progress":0.3014225297962323,"total":102,"current":56}
+{"_e":"metro:bundling:progress","_t":1782667881090,"id":"1","progress":0.33284023668639046,"total":208,"current":120}
+{"_e":"metro:bundling:progress","_t":1782667881190,"id":"1","progress":0.33284023668639046,"total":305,"current":170}
+{"_e":"metro:bundling:progress","_t":1782667881290,"id":"1","progress":0.7896745867768595,"total":440,"current":391}
+{"_e":"metro:bundling:progress","_t":1782667881390,"id":"1","progress":0.9769238539558305,"total":517,"current":511}
+{"_e":"metro:bundling:done","_t":1782667881429,"id":"1","total":517,"ms":549.736743}
+{"_e":"metro:bundling:started","_t":1782667882224,"id":"2","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782667882538,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1782667885683,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"metro:client_log","_t":1782668199909,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:bundling:started","_t":1782668200745,"id":"4","platform":"web","environment":null,"entry":"src/context/ToastContext.js"}
+{"_e":"metro:bundling:started","_t":1782668200771,"id":"5","platform":"web","environment":null,"entry":"App.js"}
+{"_e":"metro:bundling:started","_t":1782668754905,"id":"6","platform":"web","environment":null,"entry":"src/screens/ImageUploadScreen.js"}
+{"_e":"metro:bundling:started","_t":1782668754910,"id":"7","platform":"web","environment":null,"entry":"src/screens/PhotoUploadScreen.js"}
+{"_e":"metro:bundling:started","_t":1782668758907,"id":"8","platform":"web","environment":null,"entry":"src/screens/AdminLoginScreen.js"}
+{"_e":"metro:bundling:started","_t":1782668824580,"id":"9","platform":"web","environment":null,"entry":"src/screens/DatabaseViewScreen.js"}
+{"_e":"metro:bundling:started","_t":1782668824890,"id":"a","platform":"web","environment":null,"entry":"src/screens/UserManagementScreen.js"}
+{"_e":"metro:bundling:started","_t":1782668824906,"id":"b","platform":"web","environment":null,"entry":"src/screens/DashboardScreen.js"}
+{"_e":"metro:bundling:started","_t":1782668854947,"id":"c","platform":"web","environment":null,"entry":"src/screens/UserManagementScreen.js"}
+{"_e":"metro:bundling:started","_t":1782668854950,"id":"d","platform":"web","environment":null,"entry":"src/screens/DatabaseViewScreen.js"}
+{"_e":"metro:bundling:started","_t":1782668855298,"id":"e","platform":"web","environment":null,"entry":"src/screens/AdminLoginScreen.js"}
+{"_e":"metro:bundling:started","_t":1782668855303,"id":"f","platform":"web","environment":null,"entry":"src/screens/LoginScreen.js"}
+{"_e":"metro:bundling:started","_t":1782668855354,"id":"g","platform":"web","environment":null,"entry":"src/screens/SignupScreen.js"}
+{"_e":"metro:bundling:started","_t":1782668875505,"id":"h","platform":"web","environment":null,"entry":"node_modules/expo/virtual/env.js"}
+{"_e":"metro:bundling:started","_t":1782668875545,"id":"i","platform":"web","environment":null,"entry":"node_modules/expo-constants/build/ExponentConstants.web.js"}
+{"_e":"metro:bundling:started","_t":1782668875625,"id":"j","platform":"web","environment":null,"entry":"src/services/api.js"}
+{"_e":"metro:bundling:started","_t":1782668875695,"id":"l","platform":"web","environment":null,"entry":"node_modules/expo-constants/build/Constants.types.js"}
+{"_e":"metro:bundling:started","_t":1782668875707,"id":"m","platform":"web","environment":null,"entry":"node_modules/react-native-web/dist/exports/NativeModules/index.js"}
+{"_e":"metro:bundling:started","_t":1782668875727,"id":"n","platform":"web","environment":null,"entry":"node_modules/expo-constants/build/Constants.js"}
+{"_e":"metro:bundling:started","_t":1782668888541,"id":"o","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782668888542,"id":"o","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782668888596,"id":"o","total":1,"ms":54.457583}
+{"_e":"metro:bundling:started","_t":1782668889209,"id":"p","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782668889640,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:client_log","_t":1782668889640,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:bundling:started","_t":1782668994042,"id":"r","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782668994042,"id":"r","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782668994070,"id":"r","total":1,"ms":27.958248}
+{"_e":"metro:bundling:started","_t":1782668994774,"id":"s","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782668995016,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:client_log","_t":1782668995017,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"root:init","_t":1782669071921,"format":"v0-jsonl","version":"56.1.16"}
+{"_e":"env:mode","_t":1782669071922,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1782669071925,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1782669072284,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1782669072879,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:server_log","_t":1782669073301,"level":"error","data":["An unknown error occurred while installing React Native DevTools. Details:\n\n/workspaces/Fish-Freshness-Indicator/mobile/node_modules/@react-native/debugger-shell/bin/react-native-devtools: error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory\n"]}
+{"_e":"metro:instantiate","_t":1782669077272,"atlas":false,"workers":1,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1782669098506,"id":"1","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782669098507,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782669098515,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782669098615,"id":"1","progress":0.25469473316446845,"total":107,"current":54}
+{"_e":"metro:bundling:progress","_t":1782669098716,"id":"1","progress":0.2953686200378072,"total":184,"current":100}
+{"_e":"metro:bundling:progress","_t":1782669098816,"id":"1","progress":0.4190858725761773,"total":380,"current":246}
+{"_e":"metro:bundling:progress","_t":1782669098917,"id":"1","progress":0.7301187321977343,"total":481,"current":411}
+{"_e":"metro:bundling:progress","_t":1782669099017,"id":"1","progress":0.8402777777777777,"total":504,"current":462}
+{"_e":"metro:bundling:done","_t":1782669099103,"id":"1","total":504,"ms":596.944908}
+{"_e":"metro:bundling:started","_t":1782669099948,"id":"2","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782669100280,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:client_log","_t":1782669100281,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1782669127850,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"metro:client_log","_t":1782669128175,"level":"warn","data":["Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md"]}
+{"_e":"metro:bundling:started","_t":1782669188498,"id":"4","platform":"web","environment":null,"entry":"src/services/api.js"}
+{"_e":"metro:bundling:started","_t":1782669189901,"id":"5","platform":"web","environment":null,"entry":"src/services/api.js"}
+{"_e":"metro:bundling:started","_t":1782669192793,"id":"6","platform":"web","environment":null,"entry":"src/services/api.js"}
+{"_e":"metro:bundling:started","_t":1782669196886,"id":"7","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782669196887,"id":"7","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782669196906,"id":"7","total":1,"ms":19.305815}
+{"_e":"metro:bundling:started","_t":1782669197653,"id":"9","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782669198052,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:client_log","_t":1782669198052,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1782669199140,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"metro:client_log","_t":1782669199165,"level":"warn","data":["Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md"]}
+{"_e":"metro:bundling:started","_t":1782669246666,"id":"a","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782669246667,"id":"a","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782669246687,"id":"a","total":1,"ms":19.991064}
+{"_e":"metro:bundling:started","_t":1782669247566,"id":"b","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782669247674,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:client_log","_t":1782669247674,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1782669249643,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"metro:client_log","_t":1782669249662,"level":"warn","data":["Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md"]}
+{"_e":"metro:client_log","_t":1782669270026,"level":"error","data":["[TypeError: Cannot read properties of undefined (reading 'PROD')]","\n\n\u001b[1mCode: api.js\u001b[22m\n\u001b[0m \u001b[90m 13 |\u001b[39m\n \u001b[90m 14 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 15 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mAPI_BASE_URL\u001b[39m \u001b[33m=\u001b[39m \u001b[36mimport\u001b[39m\u001b[33m.\u001b[39mmeta\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mPROD\u001b[39m \u001b[33m?\u001b[39m prodUrl \u001b[33m:\u001b[39m \u001b[32m`${backendUrl}/`\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 16 |\u001b[39m \u001b[90m// export const API_BASE_URL = \"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\";\u001b[39m\n \u001b[90m 17 |\u001b[39m\n \u001b[90m 18 |\u001b[39m \u001b[36mconst\u001b[39m api \u001b[33m=\u001b[39m axios\u001b[33m.\u001b[39mcreate({ baseURL\u001b[33m:\u001b[39m \u001b[33mAPI_BASE_URL\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[1mCall Stack\u001b[22m\n\u001b[90m  <global> (\u001b]8;;src/services/api.js:15:45\u0007src/services/api.js:15:45\u001b]8;;\u0007)\u001b[39m"]}
+{"_e":"metro:bundling:started","_t":1782669270026,"id":"e","platform":"web","environment":null,"entry":"src/services/api.js"}
+{"_e":"metro:client_log","_t":1782669278842,"level":"error","data":["[TypeError: Cannot read properties of undefined (reading 'PROD')]","\n\n\u001b[1mCode: api.js\u001b[22m\n\u001b[0m \u001b[90m  6 |\u001b[39m \u001b[90m// use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\u001b[39m\n \u001b[90m  7 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  8 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mAPI_BASE_URL\u001b[39m \u001b[33m=\u001b[39m \u001b[36mimport\u001b[39m\u001b[33m.\u001b[39mmeta\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mPROD\u001b[39m \u001b[33m?\u001b[39m prodUrl \u001b[33m:\u001b[39m \u001b[32m`${backendUrl}/`\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  9 |\u001b[39m \u001b[90m// export const API_BASE_URL = \"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\";\u001b[39m\n \u001b[90m 10 |\u001b[39m\n \u001b[90m 11 |\u001b[39m \u001b[36mconst\u001b[39m api \u001b[33m=\u001b[39m axios\u001b[33m.\u001b[39mcreate({ baseURL\u001b[33m:\u001b[39m \u001b[33mAPI_BASE_URL\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[1mCall Stack\u001b[22m\n\u001b[90m  <global> (\u001b]8;;src/services/api.js:8:45\u0007src/services/api.js:8:45\u001b]8;;\u0007)\u001b[39m"]}
+{"_e":"metro:bundling:started","_t":1782669279297,"id":"g","platform":"web","environment":null,"entry":"src/services/api.js"}
+{"_e":"metro:client_log","_t":1782669286714,"level":"error","data":["[ReferenceError: API_BASE_URL is not defined]","\n\n\u001b[1mCode: api.js\u001b[22m\n\u001b[0m \u001b[90m  7 |\u001b[39m \u001b[90m// export const API_BASE_URL = \"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\";\u001b[39m\n \u001b[90m  8 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m \u001b[36mconst\u001b[39m api \u001b[33m=\u001b[39m axios\u001b[33m.\u001b[39mcreate({ baseURL\u001b[33m:\u001b[39m \u001b[33mAPI_BASE_URL\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 10 |\u001b[39m\n \u001b[90m 11 |\u001b[39m api\u001b[33m.\u001b[39minterceptors\u001b[33m.\u001b[39mrequest\u001b[33m.\u001b[39muse(\u001b[36masync\u001b[39m (config) \u001b[33m=>\u001b[39m {\n \u001b[90m 12 |\u001b[39m   \u001b[36mconst\u001b[39m token \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mAsyncStorage\u001b[39m\u001b[33m.\u001b[39mgetItem(\u001b[32m\"token\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[1mCall Stack\u001b[22m\n\u001b[90m  <global> (\u001b]8;;src/services/api.js:9:37\u0007src/services/api.js:9:37\u001b]8;;\u0007)\u001b[39m"]}
+{"_e":"metro:bundling:started","_t":1782669286853,"id":"i","platform":"web","environment":null,"entry":"src/services/api.js"}
+{"_e":"metro:client_log","_t":1782669289728,"level":"error","data":["[TypeError: Cannot read properties of undefined (reading 'PROD')]","\n\n\u001b[1mCode: api.js\u001b[22m\n\u001b[0m \u001b[90m  6 |\u001b[39m \u001b[90m// use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.\u001b[39m\n \u001b[90m  7 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  8 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mAPI_BASE_URL\u001b[39m \u001b[33m=\u001b[39m \u001b[36mimport\u001b[39m\u001b[33m.\u001b[39mmeta\u001b[33m.\u001b[39menv\u001b[33m.\u001b[39m\u001b[33mPROD\u001b[39m \u001b[33m?\u001b[39m prodUrl \u001b[33m:\u001b[39m \u001b[32m`${backendUrl}/`\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  9 |\u001b[39m \u001b[90m// export const API_BASE_URL = \"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\";\u001b[39m\n \u001b[90m 10 |\u001b[39m\n \u001b[90m 11 |\u001b[39m \u001b[36mconst\u001b[39m api \u001b[33m=\u001b[39m axios\u001b[33m.\u001b[39mcreate({ baseURL\u001b[33m:\u001b[39m \u001b[33mAPI_BASE_URL\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[1mCall Stack\u001b[22m\n\u001b[90m  <global> (\u001b]8;;src/services/api.js:8:45\u0007src/services/api.js:8:45\u001b]8;;\u0007)\u001b[39m"]}
+{"_e":"metro:bundling:started","_t":1782669289750,"id":"k","platform":"web","environment":null,"entry":"src/services/api.js"}
+{"_e":"metro:client_log","_t":1782669294110,"level":"error","data":["[ReferenceError: API_BASE_URL is not defined]","\n\n\u001b[1mCode: api.js\u001b[22m\n\u001b[0m \u001b[90m  8 |\u001b[39m \u001b[90m// export const API_BASE_URL = \"https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev\";\u001b[39m\n \u001b[90m  9 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m \u001b[36mconst\u001b[39m api \u001b[33m=\u001b[39m axios\u001b[33m.\u001b[39mcreate({ baseURL\u001b[33m:\u001b[39m \u001b[33mAPI_BASE_URL\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m\n \u001b[90m 12 |\u001b[39m api\u001b[33m.\u001b[39minterceptors\u001b[33m.\u001b[39mrequest\u001b[33m.\u001b[39muse(\u001b[36masync\u001b[39m (config) \u001b[33m=>\u001b[39m {\n \u001b[90m 13 |\u001b[39m   \u001b[36mconst\u001b[39m token \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mAsyncStorage\u001b[39m\u001b[33m.\u001b[39mgetItem(\u001b[32m\"token\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[1mCall Stack\u001b[22m\n\u001b[90m  <global> (\u001b]8;;src/services/api.js:10:37\u0007src/services/api.js:10:37\u001b]8;;\u0007)\u001b[39m"]}
+{"_e":"metro:bundling:started","_t":1782669294125,"id":"m","platform":"web","environment":null,"entry":"src/services/api.js"}
+{"_e":"metro:bundling:started","_t":1782669297909,"id":"n","platform":"web","environment":null,"entry":"src/services/api.js"}
+{"_e":"root:init","_t":1782669310889,"format":"v0-jsonl","version":"56.1.16"}
+{"_e":"env:mode","_t":1782669310890,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1782669310900,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1782669311399,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1782669312005,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:server_log","_t":1782669312377,"level":"error","data":["An unknown error occurred while installing React Native DevTools. Details:\n\n/workspaces/Fish-Freshness-Indicator/mobile/node_modules/@react-native/debugger-shell/bin/react-native-devtools: error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory\n"]}
+{"_e":"metro:instantiate","_t":1782669319077,"atlas":false,"workers":1,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1782669338470,"id":"1","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782669338471,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782669338482,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782669338582,"id":"1","progress":0.140625,"total":64,"current":24}
+{"_e":"metro:bundling:progress","_t":1782669338682,"id":"1","progress":0.24543388603652894,"total":109,"current":54}
+{"_e":"metro:bundling:progress","_t":1782669338785,"id":"1","progress":0.27477887617065555,"total":124,"current":65}
+{"_e":"metro:bundling:progress","_t":1782669338887,"id":"1","progress":0.3039883126369613,"total":185,"current":102}
+{"_e":"metro:bundling:progress","_t":1782669338989,"id":"1","progress":0.3039883126369613,"total":336,"current":183}
+{"_e":"metro:bundling:progress","_t":1782669339091,"id":"1","progress":0.6325797728501892,"total":430,"current":342}
+{"_e":"metro:bundling:progress","_t":1782669339191,"id":"1","progress":0.781714753123141,"total":492,"current":435}
+{"_e":"metro:bundling:done","_t":1782669339315,"id":"1","total":492,"ms":844.88714}
+{"_e":"metro:bundling:started","_t":1782669340115,"id":"2","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782669340585,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:client_log","_t":1782669340586,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1782669343420,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"metro:client_log","_t":1782669344853,"level":"warn","data":["Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md"]}
+{"_e":"metro:client_log","_t":1782669366768,"level":"warn","data":["Image: style.resizeMode is deprecated. Please use props.resizeMode."]}
+{"_e":"metro:client_log","_t":1782669366774,"level":"warn","data":["Image: style.tintColor is deprecated. Please use props.tintColor."]}

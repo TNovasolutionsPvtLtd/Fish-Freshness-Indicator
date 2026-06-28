@@ -1,7 +1,7 @@
 const express = require("express");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const User = require("../models/User");
+const { findUserByEmailWithPassword, createUser } = require("../config/db");
 
 const router = express.Router();
 
@@ -22,13 +22,13 @@ router.post("/signup", async (req, res) => {
       return res.status(400).json({ error: "name, email and password are required" });
     }
 
-    const existing = await User.findOne({ email: email.toLowerCase() });
+    const existing = findUserByEmailWithPassword(email);
     if (existing) {
       return res.status(409).json({ error: "An account with this email already exists" });
     }
 
     const passwordHash = await bcrypt.hash(password, 10);
-    const user = await User.create({ name, email: email.toLowerCase(), password: passwordHash });
+    const user = createUser({ name, email, passwordHash });
 
     const token = signToken(user);
     res.status(201).json({
@@ -36,9 +36,9 @@ router.post("/signup", async (req, res) => {
       user: { id: user._id, name: user.name, email: user.email, role: user.role },
     });
   } catch (err) {
-  console.error('SIGNUP ERROR:', err.message); // add this line
-  res.status(500).json({ error: "Signup failed", details: err.message });
-}
+    console.error("SIGNUP ERROR:", err.message);
+    res.status(500).json({ error: "Signup failed", details: err.message });
+  }
 });
 
 // POST /auth/login
@@ -50,7 +50,7 @@ router.post("/login", async (req, res) => {
       return res.status(400).json({ error: "email and password are required" });
     }
 
-    const user = await User.findOne({ email: email.toLowerCase() });
+    const user = findUserByEmailWithPassword(email);
     if (!user) {
       return res.status(401).json({ error: "Invalid email or password" });
     }

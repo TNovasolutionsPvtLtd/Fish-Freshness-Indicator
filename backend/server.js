@@ -3,7 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const morgan = require("morgan");
 const path = require("path");
-const connectDB = require("./config/db");
+const { initializeDatabase } = require("./config/db");
 
 const authRoutes = require("./routes/auth");
 const predictRoutes = require("./routes/predict");
@@ -34,11 +34,11 @@ app.use((err, req, res, next) => {
 
 const PORT = process.env.PORT || 5000;
 
-connectDB()
+initializeDatabase()
   .then(() => {
-    app.listen(PORT, () => console.log(`[server] Listening on port ${PORT}`));
+    app.listen(PORT, () => console.log(`[server] Listening on port http://localhost:${PORT}`));
   })
   .catch((err) => {
-    console.error("[server] Failed to connect to MongoDB:", err.message);
+    console.error("[server] Failed to initialize database:", err.message);
     process.exit(1);
   });

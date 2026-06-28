@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { View, Text, TouchableOpacity, StyleSheet, Image, ActivityIndicator, Alert } from "react-native";
+import { View, Text, TouchableOpacity, StyleSheet, Image, ActivityIndicator } from "react-native";
 import * as ImagePicker from "expo-image-picker";
 import api from "../services/api";
+import { useToast } from "../context/ToastContext";
 import { colors, spacing, radii, typography } from "../theme/theme";
 
 const SPECIES = ["Indian Mackerel", "Oil Sardine"];
@@ -26,6 +27,7 @@ function ChipRow({ options, value, onChange }) {
 }
 
 export default function ImageUploadScreen() {
+  const { showToast } = useToast();
   const [imageUri, setImageUri] = useState(null);
   const [species, setSpecies] = useState(SPECIES[0]);
   const [timeHours, setTimeHours] = useState(TIME_POINTS[0]);
@@ -42,7 +44,7 @@ export default function ImageUploadScreen() {
 
   async function submit() {
     if (!imageUri) {
-      Alert.alert("Add a photo first");
+      showToast("Add a photo first.");
       return;
     }
     setLoading(true);
@@ -56,14 +58,12 @@ export default function ImageUploadScreen() {
       formData.append("freshnessClass", freshnessClass);
       formData.append("bodyPart", bodyPart);
 
-      await api.post("/admin/images", formData, {
-        headers: { "Content-Type": "multipart/form-data" },
-      });
+      await api.post("/admin/images", formData);
 
-      Alert.alert("Added to dataset", "The labelled photo was saved.");
+      showToast("Added to dataset. The labelled photo was saved.", "success");
       setImageUri(null);
     } catch (err) {
-      Alert.alert("Upload failed", err?.response?.data?.error || "Please try again.");
+      showToast(err?.response?.data?.error || "Upload failed. Please try again.");
     } finally {
       setLoading(false);
     }

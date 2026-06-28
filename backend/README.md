@@ -1,7 +1,7 @@
-# Fish Freshness Backend (Node.js + Express + MongoDB)
+# Fish Freshness Backend (Node.js + Express)
 
-Implements the API described in the TNova Solutions project guide, using
-Node.js/Express/MongoDB instead of the guide's FastAPI/PostgreSQL stack.
+Implements the API described in the TNova Solutions project guide using
+Node.js/Express with local JSON persistence for users, predictions, and training data.
 
 ## Setup
 
@@ -9,7 +9,6 @@ Node.js/Express/MongoDB instead of the guide's FastAPI/PostgreSQL stack.
 cd backend
 npm install
 cp .env.example .env
-# edit .env: set MONGO_URI to your local MongoDB or a MongoDB Atlas connection string
 npm run dev      # nodemon, auto-restarts on changes
 # or
 npm start

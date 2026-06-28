@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, KeyboardAvoidingView, Platform } from "react-native";
 import { useAuth } from "../context/AuthContext";
+import { useToast } from "../context/ToastContext";
 import { colors, spacing, radii, typography } from "../theme/theme";
 
 export default function LoginScreen({ navigation }) {
   const { login } = useAuth();
+  const { showToast } = useToast();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -16,7 +18,9 @@ export default function LoginScreen({ navigation }) {
     try {
       await login(email.trim(), password);
     } catch (err) {
-      setError(err?.response?.data?.error || "Could not log in. Check your details.");
+      const message = err?.response?.data?.error || "Could not log in. Check your details.";
+      setError(message);
+      showToast(message);
     } finally {
       setSubmitting(false);
     }

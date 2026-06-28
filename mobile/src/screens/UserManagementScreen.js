@@ -1,20 +1,23 @@
 import React, { useCallback, useState } from "react";
 import { View, Text, FlatList, TouchableOpacity, StyleSheet } from "react-native";
 import { useFocusEffect } from "@react-navigation/native";
+import { useToast } from "../context/ToastContext";
 import api from "../services/api";
 import { colors, spacing, radii, typography } from "../theme/theme";
 
 export default function UserManagementScreen() {
   const [users, setUsers] = useState([]);
 
+  const { showToast } = useToast();
+
   const load = useCallback(async () => {
     try {
       const { data } = await api.get("/admin/users");
       setUsers(data);
     } catch (err) {
-      // ignore
+      showToast(err?.response?.data?.error || "Unable to load users.");
     }
-  }, []);
+  }, [showToast]);
 
   useFocusEffect(
     useCallback(() => {
@@ -23,8 +26,13 @@ export default function UserManagementScreen() {
   );
 
   async function toggleFlag(user) {
-    await api.patch(`/admin/users/${user._id}`, { flagged: !user.flagged });
-    load();
+    try {
+      await api.patch(`/admin/users/${user._id}`, { flagged: !user.flagged });
+      load();
+      showToast(`User ${user.flagged ? "unflagged" : "flagged"}.`, "success");
+    } catch (err) {
+      showToast(err?.response?.data?.error || "Unable to update user flag.");
+    }
   }
 
   return (

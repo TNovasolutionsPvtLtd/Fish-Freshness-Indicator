@@ -1,12 +1,15 @@
 import React, { useCallback, useState } from "react";
 import { View, Text, FlatList, Image, TouchableOpacity, StyleSheet } from "react-native";
 import { useFocusEffect } from "@react-navigation/native";
+import { useToast } from "../context/ToastContext";
 import api from "../services/api";
 import { colors, spacing, radii, typography } from "../theme/theme";
 
 export default function DatabaseViewScreen() {
   const [images, setImages] = useState([]);
   const [filter, setFilter] = useState(null); // freshnessClass filter
+
+  const { showToast } = useToast();
 
   const load = useCallback(async () => {
     try {
@@ -15,9 +18,9 @@ export default function DatabaseViewScreen() {
       });
       setImages(data);
     } catch (err) {
-      // ignore
+      showToast(err?.response?.data?.error || "Unable to load dataset.");
     }
-  }, [filter]);
+  }, [filter, showToast]);
 
   useFocusEffect(
     useCallback(() => {
@@ -26,8 +29,13 @@ export default function DatabaseViewScreen() {
   );
 
   async function setStatus(id, status) {
-    await api.patch(`/admin/images/${id}`, { status });
-    load();
+    try {
+      await api.patch(`/admin/images/${id}`, { status });
+      load();
+      showToast(`Image ${status}.`, "success");
+    } catch (err) {
+      showToast(err?.response?.data?.error || "Unable to update image status.");
+    }
   }
 
   return (

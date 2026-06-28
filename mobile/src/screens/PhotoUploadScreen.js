@@ -1,17 +1,20 @@
 import React, { useState } from "react";
-import { View, Text, TouchableOpacity, StyleSheet, Image, ActivityIndicator, Alert } from "react-native";
+import { View, Text, TouchableOpacity, StyleSheet, Image, ActivityIndicator } from "react-native";
 import * as ImagePicker from "expo-image-picker";
 import api from "../services/api";
+import { useToast } from "../context/ToastContext";
 import { colors, spacing, radii, typography } from "../theme/theme";
 
 export default function PhotoUploadScreen({ navigation }) {
   const [imageUri, setImageUri] = useState(null);
   const [loading, setLoading] = useState(false);
 
+  const { showToast } = useToast();
+
   async function pickFromLibrary() {
     const permission = await ImagePicker.requestMediaLibraryPermissionsAsync();
     if (!permission.granted) {
-      Alert.alert("Permission needed", "Allow photo library access to pick an image.");
+      showToast("Allow photo library access to pick an image.");
       return;
     }
     const result = await ImagePicker.launchImageLibraryAsync({ quality: 0.8 });
@@ -21,7 +24,7 @@ export default function PhotoUploadScreen({ navigation }) {
   async function takePhoto() {
     const permission = await ImagePicker.requestCameraPermissionsAsync();
     if (!permission.granted) {
-      Alert.alert("Permission needed", "Allow camera access to take a photo.");
+      showToast("Allow camera access to take a photo.");
       return;
     }
     const result = await ImagePicker.launchCameraAsync({ quality: 0.8 });
@@ -37,13 +40,11 @@ export default function PhotoUploadScreen({ navigation }) {
       const ext = filename.split(".").pop();
       formData.append("image", { uri: imageUri, name: filename, type: `image/${ext}` });
 
-      const { data } = await api.post("/predict", formData, {
-        headers: { "Content-Type": "multipart/form-data" },
-      });
+      const { data } = await api.post("/predict", formData);
 
       navigation.navigate("Result", { prediction: data });
     } catch (err) {
-      Alert.alert("Prediction failed", err?.response?.data?.error || "Please try again.");
+      showToast(err?.response?.data?.error || "Prediction failed. Please try again.");
     } finally {
       setLoading(false);
     }
