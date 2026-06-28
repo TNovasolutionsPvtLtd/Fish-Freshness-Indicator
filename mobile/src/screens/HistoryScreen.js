@@ -32,6 +32,8 @@ export default function HistoryScreen() {
       <FlatList
         data={predictions}
         keyExtractor={(item) => String(item.id)}
+        contentContainerStyle={{ paddingBottom: 80 }}
+        ListFooterComponent={<View style={{ height: 80 }} />}
         ListEmptyComponent={<Text style={styles.empty}>No predictions yet.</Text>}
         renderItem={({ item }) => (
           <Card style={styles.card}>

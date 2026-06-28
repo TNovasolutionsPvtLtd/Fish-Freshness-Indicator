@@ -70,8 +70,11 @@ export default function ImageUploadScreen() {
   }
 
   return (
-    <ScrollView style={{ flex: 1 }} contentContainerStyle={[styles.container, { flexGrow: 1 }]}>
-      <Text style={typography.title}>Add a labelled training photo</Text>
+    <ScrollView
+      style={styles.scroll}
+      contentContainerStyle={styles.contentContainer}
+      keyboardShouldPersistTaps="handled"
+    >
 
       <TouchableOpacity style={styles.previewBox} onPress={pickImage}>
         {imageUri ? (
@@ -101,7 +104,8 @@ export default function ImageUploadScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { backgroundColor: colors.background, padding: spacing(3) },
+  scroll: { flex: 1 },
+  contentContainer: { flexGrow: 1, backgroundColor: colors.background, padding: spacing(3), paddingBottom: spacing(18) },
   previewBox: {
     height: 160,
     borderRadius: radii.lg,

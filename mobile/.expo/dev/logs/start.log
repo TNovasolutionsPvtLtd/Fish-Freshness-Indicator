@@ -1160,3 +1160,301 @@
 {"_e":"metro:client_log","_t":1782672096002,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
 {"_e":"metro:client_log","_t":1782672096002,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
 {"_e":"metro:client_log","_t":1782672096002,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"root:init","_t":1782673773380,"format":"v0-jsonl","version":"56.1.16"}
+{"_e":"env:mode","_t":1782673773380,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1782673773383,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1782673773761,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1782673774199,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:server_log","_t":1782673774445,"level":"error","data":["An unknown error occurred while installing React Native DevTools. Details:\n\n/workspaces/Fish-Freshness-Indicator/mobile/node_modules/@react-native/debugger-shell/bin/react-native-devtools: error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory\n"]}
+{"_e":"metro:instantiate","_t":1782673778748,"atlas":false,"workers":1,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1782673779841,"id":"1","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782673779842,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782673779850,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782673779950,"id":"1","progress":0.31228373702422146,"total":102,"current":57}
+{"_e":"metro:bundling:progress","_t":1782673780514,"id":"1","progress":0.31228373702422146,"total":124,"current":66}
+{"_e":"metro:bundling:progress","_t":1782673780515,"id":"1","progress":0.31228373702422146,"total":124,"current":67}
+{"_e":"metro:bundling:progress","_t":1782673780618,"id":"1","progress":0.31228373702422146,"total":307,"current":169}
+{"_e":"metro:bundling:progress","_t":1782673780718,"id":"1","progress":0.6714378162436497,"total":443,"current":363}
+{"_e":"metro:bundling:progress","_t":1782673780818,"id":"1","progress":0.922958457007654,"total":509,"current":489}
+{"_e":"metro:bundling:failed","_t":1782673780835,"id":"1","message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/PhotoUploadScreen.js: Unexpected token, expected \",\" (89:0)\n\n  87 |       </TouchableOpacity>\n  88 |     </ScrollView>\n> 89 | }\n     | ^\n  90 |\n  91 | const styles = StyleSheet.create({\n  92 |   container: { backgroundColor: colors.background, padding: spacing(3), paddingBottom: spacing(12) },","importStack":null,"filename":"src/screens/PhotoUploadScreen.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:started","_t":1782673830733,"id":"3","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782673830733,"id":"3","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782673830738,"id":"3","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782673830838,"id":"3","progress":0.3689437585733882,"total":135,"current":82}
+{"_e":"metro:bundling:progress","_t":1782673830948,"id":"3","progress":0.4301660410759068,"total":247,"current":162}
+{"_e":"metro:bundling:progress","_t":1782673831047,"id":"3","progress":0.6788831581035509,"total":426,"current":351}
+{"_e":"metro:bundling:progress","_t":1782673831149,"id":"3","progress":0.9267371980191523,"total":509,"current":490}
+{"_e":"metro:bundling:failed","_t":1782673831192,"id":"3","message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/PhotoUploadScreen.js: Unexpected token, expected \",\" (89:0)\n\n  87 |       </TouchableOpacity>\n  88 |     </ScrollView>\n> 89 | }\n     | ^\n  90 |\n  91 | const styles = StyleSheet.create({\n  92 |   container: { backgroundColor: colors.background, padding: spacing(3), paddingBottom: spacing(12) },","importStack":null,"filename":"src/screens/PhotoUploadScreen.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:started","_t":1782673857164,"id":"5","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782673857164,"id":"5","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782673857168,"id":"5","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782673857268,"id":"5","progress":0.19329667063020214,"total":116,"current":51}
+{"_e":"metro:bundling:progress","_t":1782673857503,"id":"5","progress":0.2919484911550468,"total":124,"current":67}
+{"_e":"metro:bundling:progress","_t":1782673857612,"id":"5","progress":0.37312237617996075,"total":203,"current":124}
+{"_e":"metro:bundling:progress","_t":1782673857712,"id":"5","progress":0.5568609378551046,"total":398,"current":297}
+{"_e":"metro:bundling:progress","_t":1782673857816,"id":"5","progress":0.9267371980191523,"total":509,"current":490}
+{"_e":"metro:bundling:done","_t":1782673857924,"id":"5","total":509,"ms":759.703114}
+{"_e":"metro:bundling:started","_t":1782673858625,"id":"6","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782673859334,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:client_log","_t":1782673859349,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1782673859349,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"metro:client_log","_t":1782673863434,"level":"warn","data":["Image: style.resizeMode is deprecated. Please use props.resizeMode."]}
+{"_e":"metro:client_log","_t":1782673863437,"level":"warn","data":["Image: style.tintColor is deprecated. Please use props.tintColor."]}
+{"_e":"metro:bundling:started","_t":1782674043258,"id":"a","platform":"web","environment":null,"entry":"src/screens/PhotoUploadScreen.js"}
+{"_e":"metro:bundling:started","_t":1782674074243,"id":"b","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782674074243,"id":"b","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782674074301,"id":"b","total":1,"ms":57.584861}
+{"_e":"metro:bundling:started","_t":1782674075146,"id":"d","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782674075544,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:client_log","_t":1782674075545,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1782674075545,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"metro:client_log","_t":1782674077036,"level":"warn","data":["Image: style.resizeMode is deprecated. Please use props.resizeMode."]}
+{"_e":"metro:client_log","_t":1782674077041,"level":"warn","data":["Image: style.tintColor is deprecated. Please use props.tintColor."]}
+{"_e":"metro:client_log","_t":1782674086637,"level":"warn","data":["Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md"]}
+{"_e":"metro:bundling:failed","_t":1782674352855,"id":"3","message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/AdminDashboardScreen.js: Unexpected token (115:62)\n\n  113 |   },\n  114 |   statValue: { fontSize: 26, fontWeight: \"700\", color: colors.deep },\n> 115 |   statLabel: { color: colors.textSecondary, marginTop: spacing(0.5), fontSize: 13 },\n      |                                                               ^\n  116 |   linkRow: {\n  117 |     flexDirection: \"row\",\n  118 |     justifyContent: \"space-between\",","importStack":null,"filename":"src/screens/AdminDashboardScreen.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1782674353006,"level":"error","data":["[TransformError: Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/AdminDashboardScreen.js: Unexpected token (115:62)\n\n  113 |   },\n  114 |   statValue: { fontSize: 26, fontWeight: \"700\", color: colors.deep },\n> 115 |   statLabel: { color: colors.textSecondary, marginTop: spacing(0.5), fontSize: 13 },\n      |                                                               ^\n  116 |   linkRow: {\n  117 |     flexDirection: \"row\",\n  118 |     justifyContent: \"space-between\",]"]}
+{"_e":"metro:bundling:started","_t":1782674360754,"id":"h","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782674360754,"id":"h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782674360755,"id":"h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:failed","_t":1782674360816,"id":"h","message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/AdminDashboardScreen.js: Unexpected token (115:62)\n\n  113 |   },\n  114 |   statValue: { fontSize: 26, fontWeight: \"700\", color: colors.deep },\n> 115 |   statLabel: { color: colors.textSecondary, marginTop: spacing(0.5), fontSize: 13 },\n      |                                                               ^\n  116 |   linkRow: {\n  117 |     flexDirection: \"row\",\n  118 |     justifyContent: \"space-between\",","importStack":null,"filename":"src/screens/AdminDashboardScreen.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:started","_t":1782674384508,"id":"j","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782674384508,"id":"j","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782674384509,"id":"j","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:failed","_t":1782674384523,"id":"j","message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/AdminDashboardScreen.js: Unexpected token (115:62)\n\n  113 |   },\n  114 |   statValue: { fontSize: 26, fontWeight: \"700\", color: colors.deep },\n> 115 |   statLabel: { color: colors.textSecondary, marginTop: spacing(0.5), fontSize: 13 },\n      |                                                               ^\n  116 |   linkRow: {\n  117 |     flexDirection: \"row\",\n  118 |     justifyContent: \"space-between\",","importStack":null,"filename":"src/screens/AdminDashboardScreen.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:started","_t":1782674417974,"id":"l","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782674417974,"id":"l","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782674417975,"id":"l","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:failed","_t":1782674417986,"id":"l","message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/AdminDashboardScreen.js: Unexpected token (115:62)\n\n  113 |   },\n  114 |   statValue: { fontSize: 26, fontWeight: \"700\", color: colors.deep },\n> 115 |   statLabel: { color: colors.textSecondary, marginTop: spacing(0.5), fontSize: 13 },\n      |                                                               ^\n  116 |   linkRow: {\n  117 |     flexDirection: \"row\",\n  118 |     justifyContent: \"space-between\",","importStack":null,"filename":"src/screens/AdminDashboardScreen.js","targetModuleName":null,"originModulePath":null}
+{"_e":"root:init","_t":1782674447592,"format":"v0-jsonl","version":"56.1.16"}
+{"_e":"env:mode","_t":1782674447594,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1782674447598,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1782674448293,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1782674449471,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:server_log","_t":1782674449999,"level":"error","data":["An unknown error occurred while installing React Native DevTools. Details:\n\n/workspaces/Fish-Freshness-Indicator/mobile/node_modules/@react-native/debugger-shell/bin/react-native-devtools: error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory\n"]}
+{"_e":"metro:instantiate","_t":1782674456171,"atlas":false,"workers":1,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1782674463533,"id":"1","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782674463533,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782674463541,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782674463906,"id":"1","progress":0.06879871002418705,"total":61,"current":16}
+{"_e":"metro:bundling:progress","_t":1782674464006,"id":"1","progress":0.4086284249319019,"total":158,"current":101}
+{"_e":"metro:bundling:progress","_t":1782674464107,"id":"1","progress":0.4086284249319019,"total":359,"current":210}
+{"_e":"metro:bundling:progress","_t":1782674464207,"id":"1","progress":0.6270192856748145,"total":466,"current":369}
+{"_e":"metro:bundling:progress","_t":1782674464309,"id":"1","progress":0.9034408391334182,"total":505,"current":480}
+{"_e":"metro:bundling:failed","_t":1782674464342,"id":"1","message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/AdminDashboardScreen.js: Unexpected token (115:62)\n\n  113 |   },\n  114 |   statValue: { fontSize: 26, fontWeight: \"700\", color: colors.deep },\n> 115 |   statLabel: { color: colors.textSecondary, marginTop: spacing(0.5), fontSize: 13 },\n      |                                                               ^\n  116 |   linkRow: {\n  117 |     flexDirection: \"row\",\n  118 |     justifyContent: \"space-between\",","importStack":null,"filename":"src/screens/AdminDashboardScreen.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:started","_t":1782674535197,"id":"3","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782674535198,"id":"3","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782674535204,"id":"3","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782674535304,"id":"3","progress":0.16195716835217133,"total":82,"current":33}
+{"_e":"metro:bundling:progress","_t":1782674535481,"id":"3","progress":0.2919484911550468,"total":124,"current":67}
+{"_e":"metro:bundling:progress","_t":1782674535581,"id":"3","progress":0.3914266929651545,"total":195,"current":122}
+{"_e":"metro:bundling:progress","_t":1782674535681,"id":"3","progress":0.6014950155782613,"total":401,"current":311}
+{"_e":"metro:bundling:progress","_t":1782674535790,"id":"3","progress":0.6573199213781941,"total":465,"current":377}
+{"_e":"metro:bundling:progress","_t":1782674535890,"id":"3","progress":0.7741132648362998,"total":491,"current":432}
+{"_e":"metro:bundling:done","_t":1782674535985,"id":"3","total":491,"ms":786.996058}
+{"_e":"metro:bundling:started","_t":1782674537269,"id":"4","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782674537872,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:client_log","_t":1782674537873,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1782674537873,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"metro:client_log","_t":1782674596197,"level":"warn","data":["Image: style.resizeMode is deprecated. Please use props.resizeMode."]}
+{"_e":"metro:client_log","_t":1782674596201,"level":"warn","data":["Image: style.tintColor is deprecated. Please use props.tintColor."]}
+{"_e":"metro:client_log","_t":1782674598329,"level":"warn","data":["Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md"]}
+{"_e":"metro:bundling:started","_t":1782674711433,"id":"8","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782674711433,"id":"8","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782674711456,"id":"8","total":1,"ms":22.890243}
+{"_e":"metro:bundling:started","_t":1782674712226,"id":"9","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782674712851,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:client_log","_t":1782674712851,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1782674712856,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"metro:bundling:started","_t":1782674718410,"id":"c","platform":"web","environment":null,"entry":"src/screens/AdminDashboardScreen.js"}
+{"_e":"metro:bundling:started","_t":1782674718461,"id":"d","platform":"web","environment":null,"entry":"src/screens/DashboardScreen.js"}
+{"_e":"metro:bundling:started","_t":1782674721829,"id":"e","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782674721829,"id":"e","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782674721902,"id":"e","total":1,"ms":73.036827}
+{"_e":"metro:bundling:started","_t":1782674722791,"id":"f","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782674723098,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:client_log","_t":1782674723107,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1782674723107,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"metro:client_log","_t":1782674730956,"level":"warn","data":["Cannot record touch end without a touch start.\n","Touch End: {\"identifier\":0,\"pageX\":641,\"pageY\":97,\"timestamp\":9682.5}\n","Touch Bank: []"]}
+{"_e":"metro:bundling:started","_t":1782674947572,"id":"i","platform":"web","environment":null,"entry":"App.js"}
+{"_e":"metro:bundling:started","_t":1782674952051,"id":"j","platform":"web","environment":null,"entry":"App.js"}
+{"_e":"metro:bundling:started","_t":1782674960517,"id":"k","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782674960517,"id":"k","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782674960562,"id":"k","total":1,"ms":45.032238}
+{"_e":"metro:bundling:started","_t":1782674961277,"id":"l","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782674962010,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:client_log","_t":1782674962010,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1782674962010,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"metro:client_log","_t":1782674979215,"level":"warn","data":["Image: style.resizeMode is deprecated. Please use props.resizeMode."]}
+{"_e":"metro:client_log","_t":1782674979219,"level":"warn","data":["Image: style.tintColor is deprecated. Please use props.tintColor."]}
+{"_e":"metro:client_log","_t":1782675034678,"level":"warn","data":["Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md"]}
+{"_e":"metro:bundling:failed","_t":1782675061956,"id":"1","message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/DashboardScreen.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (44:6)\n\n  42 |       </View>\n  43 |\n> 44 |       <TouchableOpacity style={styles.checkButton} onPress={() => navigation.navigate(\"PhotoUpload\")}>\n     |       ^\n  45 |         <Text style={styles.checkButtonText}>Check Freshness</Text>\n  46 |         <Text style={styles.checkButtonSub}>Photograph an eye or gill</Text>\n  47 |       </TouchableOpacity>","importStack":null,"filename":"src/screens/DashboardScreen.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1782675062060,"level":"error","data":["[TransformError: Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/DashboardScreen.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (44:6)\n\n  42 |       </View>\n  43 |\n> 44 |       <TouchableOpacity style={styles.checkButton} onPress={() => navigation.navigate(\"PhotoUpload\")}>\n     |       ^\n  45 |         <Text style={styles.checkButtonText}>Check Freshness</Text>\n  46 |         <Text style={styles.checkButtonSub}>Photograph an eye or gill</Text>\n  47 |       </TouchableOpacity>]"]}
+{"_e":"metro:bundling:started","_t":1782675084809,"id":"p","platform":"web","environment":null,"entry":"src/screens/DashboardScreen.js"}
+{"_e":"metro:bundling:failed","_t":1782675087266,"id":"1","message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/DashboardScreen.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (49:4)\n\n  47 |       </View>\n  48 |\n> 49 |     <View style={styles.container}>\n     |     ^\n  50 |     \n  51 |       <TouchableOpacity style={styles.checkButton} onPress={() => navigation.navigate(\"PhotoUpload\")}>\n  52 |         <Text style={styles.checkButtonText}>Check Freshness</Text>","importStack":null,"filename":"src/screens/DashboardScreen.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1782675087422,"level":"error","data":["[TransformError: Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/DashboardScreen.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (49:4)\n\n  47 |       </View>\n  48 |\n> 49 |     <View style={styles.container}>\n     |     ^\n  50 |     \n  51 |       <TouchableOpacity style={styles.checkButton} onPress={() => navigation.navigate(\"PhotoUpload\")}>\n  52 |         <Text style={styles.checkButtonText}>Check Freshness</Text>]"]}
+{"_e":"metro:bundling:started","_t":1782675098879,"id":"q","platform":"web","environment":null,"entry":"src/screens/DashboardScreen.js"}
+{"_e":"metro:bundling:started","_t":1782675101120,"id":"r","platform":"web","environment":null,"entry":"src/screens/DashboardScreen.js"}
+{"_e":"metro:bundling:started","_t":1782675109218,"id":"s","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782675109219,"id":"s","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782675109244,"id":"s","total":1,"ms":25.737901}
+{"_e":"metro:bundling:started","_t":1782675110110,"id":"u","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782675110222,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:client_log","_t":1782675110223,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1782675110223,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"metro:bundling:started","_t":1782675129179,"id":"w","platform":"web","environment":null,"entry":"src/screens/DashboardScreen.js"}
+{"_e":"metro:bundling:started","_t":1782675152704,"id":"x","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:started","_t":1782675152867,"id":"y","platform":"web","environment":null,"entry":"src/screens/DashboardScreen.js"}
+{"_e":"metro:client_log","_t":1782675158957,"level":"warn","data":["Image: style.resizeMode is deprecated. Please use props.resizeMode."]}
+{"_e":"metro:client_log","_t":1782675158976,"level":"warn","data":["Image: style.tintColor is deprecated. Please use props.tintColor."]}
+{"_e":"metro:client_log","_t":1782675162128,"level":"warn","data":["Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md"]}
+{"_e":"metro:bundling:started","_t":1782675215364,"id":"10","platform":"web","environment":null,"entry":"src/screens/AdminDashboardScreen.js"}
+{"_e":"metro:bundling:started","_t":1782675226980,"id":"11","platform":"web","environment":null,"entry":"src/screens/AdminDashboardScreen.js"}
+{"_e":"metro:bundling:started","_t":1782675230220,"id":"12","platform":"web","environment":null,"entry":"src/screens/AdminDashboardScreen.js"}
+{"_e":"metro:bundling:failed","_t":1782675248075,"id":"1","message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/AdminDashboardScreen.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (44:4)\n\n  42 |         <Text style={styles.heroSubtitle}>Manage your dataset and users easily.</Text>\n  43 |       </View>\n> 44 |     <View style={styles.container}>\n     |     ^\n  45 |     \n  46 |\n  47 |       <View style={styles.statsGrid}>","importStack":null,"filename":"src/screens/AdminDashboardScreen.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1782675248184,"level":"error","data":["[TransformError: Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/AdminDashboardScreen.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (44:4)\n\n  42 |         <Text style={styles.heroSubtitle}>Manage your dataset and users easily.</Text>\n  43 |       </View>\n> 44 |     <View style={styles.container}>\n     |     ^\n  45 |     \n  46 |\n  47 |       <View style={styles.statsGrid}>]"]}
+{"_e":"metro:bundling:started","_t":1782675255406,"id":"13","platform":"web","environment":null,"entry":"src/screens/AdminDashboardScreen.js"}
+{"_e":"metro:bundling:started","_t":1782675256429,"id":"14","platform":"web","environment":null,"entry":"src/screens/AdminDashboardScreen.js"}
+{"_e":"metro:bundling:started","_t":1782675270235,"id":"15","platform":"web","environment":null,"entry":"src/screens/AdminDashboardScreen.js"}
+{"_e":"metro:bundling:started","_t":1782675273941,"id":"16","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782675273941,"id":"16","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782675273967,"id":"16","total":1,"ms":26.145345}
+{"_e":"metro:bundling:started","_t":1782675274750,"id":"17","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782675275070,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:client_log","_t":1782675275070,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1782675275070,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"metro:client_log","_t":1782675309318,"level":"warn","data":["Image: style.resizeMode is deprecated. Please use props.resizeMode."]}
+{"_e":"metro:client_log","_t":1782675309322,"level":"warn","data":["Image: style.tintColor is deprecated. Please use props.tintColor."]}
+{"_e":"metro:client_log","_t":1782675314226,"level":"warn","data":["Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md"]}
+{"_e":"metro:bundling:started","_t":1782675331149,"id":"1b","platform":"web","environment":null,"entry":"src/screens/PhotoUploadScreen.js"}
+{"_e":"metro:bundling:started","_t":1782675382019,"id":"1c","platform":"web","environment":null,"entry":"src/screens/ImageUploadScreen.js"}
+{"_e":"metro:bundling:started","_t":1782675382180,"id":"1d","platform":"web","environment":null,"entry":"src/screens/PhotoUploadScreen.js"}
+{"_e":"metro:bundling:started","_t":1782675395030,"id":"1e","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782675395030,"id":"1e","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782675395050,"id":"1e","total":1,"ms":19.788299}
+{"_e":"metro:bundling:started","_t":1782675395691,"id":"1f","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782675396263,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:client_log","_t":1782675396264,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1782675396264,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"metro:bundling:started","_t":1782675414145,"id":"1i","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782675414146,"id":"1i","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1782675414168,"id":"1i","total":1,"ms":22.460156}
+{"_e":"metro:bundling:started","_t":1782675415055,"id":"1k","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782675415298,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:client_log","_t":1782675415305,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1782675415306,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"metro:client_log","_t":1782675419453,"level":"warn","data":["Image: style.resizeMode is deprecated. Please use props.resizeMode."]}
+{"_e":"metro:client_log","_t":1782675419456,"level":"warn","data":["Image: style.tintColor is deprecated. Please use props.tintColor."]}
+{"_e":"metro:client_log","_t":1782675429998,"level":"warn","data":["Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md"]}
+{"_e":"metro:bundling:failed","_t":1782675514346,"id":"1","message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/AdminDashboardScreen.js: Expected corresponding JSX closing tag for <ScrollView>. (64:13)\n\n  62 |           </TouchableOpacity>\n  63 |         ))}\n> 64 |       </View></>\n     |              ^\n  65 |   );\n  66 | }\n  67 |","importStack":null,"filename":"src/screens/AdminDashboardScreen.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1782675514516,"level":"error","data":["[TransformError: Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/AdminDashboardScreen.js: Expected corresponding JSX closing tag for <ScrollView>. (64:13)\n\n  62 |           </TouchableOpacity>\n  63 |         ))}\n> 64 |       </View></>\n     |              ^\n  65 |   );\n  66 | }\n  67 |]"]}
+{"_e":"metro:bundling:failed","_t":1782675514996,"id":"1","message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/AdminDashboardScreen.js: Expected corresponding JSX closing tag for <ScrollView>. (64:13)\n\n  62 |           </TouchableOpacity>\n  63 |         ))}\n> 64 |       </View></>\n     |              ^\n  65 |   );\n  66 | }\n  67 |","importStack":null,"filename":"src/screens/AdminDashboardScreen.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1782675515138,"level":"error","data":["[TransformError: Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/AdminDashboardScreen.js: Expected corresponding JSX closing tag for <ScrollView>. (64:13)\n\n  62 |           </TouchableOpacity>\n  63 |         ))}\n> 64 |       </View></>\n     |              ^\n  65 |   );\n  66 | }\n  67 |]"]}
+{"_e":"metro:bundling:failed","_t":1782675531976,"id":"1","message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/AdminDashboardScreen.js: Expected corresponding JSX closing tag for <ScrollView>. (64:13)\n\n  62 |           </TouchableOpacity>\n  63 |         ))}\n> 64 |       </View></>\n     |              ^\n  65 |   );\n  66 | }\n  67 |","importStack":null,"filename":"src/screens/AdminDashboardScreen.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1782675532080,"level":"error","data":["[TransformError: Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/AdminDashboardScreen.js: Expected corresponding JSX closing tag for <ScrollView>. (64:13)\n\n  62 |           </TouchableOpacity>\n  63 |         ))}\n> 64 |       </View></>\n     |              ^\n  65 |   );\n  66 | }\n  67 |]"]}
+{"_e":"metro:bundling:started","_t":1782675542101,"id":"1n","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782675542101,"id":"1n","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782675542102,"id":"1n","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:failed","_t":1782675542138,"id":"1n","message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/AdminDashboardScreen.js: Expected corresponding JSX closing tag for <ScrollView>. (64:13)\n\n  62 |           </TouchableOpacity>\n  63 |         ))}\n> 64 |       </View></>\n     |              ^\n  65 |   );\n  66 | }\n  67 |","importStack":null,"filename":"src/screens/AdminDashboardScreen.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:started","_t":1782675591777,"id":"1p","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782675591777,"id":"1p","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782675591778,"id":"1p","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:failed","_t":1782675591839,"id":"1p","message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/DashboardScreen.js: Expected corresponding JSX closing tag for <ScrollView>. (79:13)\n\n  77 |             </View>\n  78 |           )} />\n> 79 |       </View></>\n     |              ^\n  80 |   );\n  81 | }\n  82 |","importStack":null,"filename":"src/screens/DashboardScreen.js","targetModuleName":null,"originModulePath":null}
+{"_e":"root:init","_t":1782675656278,"format":"v0-jsonl","version":"56.1.16"}
+{"_e":"env:mode","_t":1782675656281,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1782675656286,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1782675656785,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1782675657891,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:server_log","_t":1782675658369,"level":"error","data":["An unknown error occurred while installing React Native DevTools. Details:\n\n/workspaces/Fish-Freshness-Indicator/mobile/node_modules/@react-native/debugger-shell/bin/react-native-devtools: error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory\n"]}
+{"_e":"metro:instantiate","_t":1782675662059,"atlas":false,"workers":1,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1782675666557,"id":"1","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782675666557,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782675666568,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782675666933,"id":"1","progress":0.07217643127645355,"total":67,"current":18}
+{"_e":"metro:bundling:progress","_t":1782675666936,"id":"1","progress":0.08041880151481398,"total":67,"current":19}
+{"_e":"metro:bundling:progress","_t":1782675667100,"id":"1","progress":0.308641975308642,"total":108,"current":60}
+{"_e":"metro:bundling:progress","_t":1782675667200,"id":"1","progress":0.37537195000991863,"total":142,"current":87}
+{"_e":"metro:bundling:progress","_t":1782675667300,"id":"1","progress":0.42707371498922747,"total":228,"current":149}
+{"_e":"metro:bundling:progress","_t":1782675667400,"id":"1","progress":0.42707371498922747,"total":348,"current":190}
+{"_e":"metro:bundling:progress","_t":1782675667502,"id":"1","progress":0.5544739435295994,"total":419,"current":312}
+{"_e":"metro:bundling:progress","_t":1782675667608,"id":"1","progress":0.7897236473307218,"total":494,"current":439}
+{"_e":"metro:bundling:failed","_t":1782675667642,"id":"1","message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/SignupScreen.js: Unexpected token, expected \"}\" (70:11)\n\n  68 |\n  69 | const styles = StyleSheet.create({\n> 70 |   container: { flex: 1, backgroundColor: colors.background },\n     |            ^\n  71 |   contentContainer: { padding: spacing(3), justifyContent: \"center\", flexGrow: 1 },\n  72 |   eyebrow: { ...typography.caption, color: colors.accent, marginBottom: spacing(1) },\n  73 |   input: {","importStack":null,"filename":"src/screens/SignupScreen.js","targetModuleName":null,"originModulePath":null}
+{"_e":"root:init","_t":1782675777381,"format":"v0-jsonl","version":"56.1.16"}
+{"_e":"env:mode","_t":1782675777382,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1782675777385,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1782675777727,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1782675778351,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:server_log","_t":1782675778699,"level":"error","data":["An unknown error occurred while installing React Native DevTools. Details:\n\n/workspaces/Fish-Freshness-Indicator/mobile/node_modules/@react-native/debugger-shell/bin/react-native-devtools: error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory\n"]}
+{"_e":"metro:instantiate","_t":1782675782449,"atlas":false,"workers":1,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1782675786919,"id":"1","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782675786920,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782675786928,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782675787230,"id":"1","progress":0.07217643127645355,"total":67,"current":18}
+{"_e":"metro:bundling:progress","_t":1782675787239,"id":"1","progress":0.08041880151481398,"total":67,"current":19}
+{"_e":"metro:bundling:progress","_t":1782675787374,"id":"1","progress":0.25812955254942765,"total":124,"current":63}
+{"_e":"metro:bundling:progress","_t":1782675787487,"id":"1","progress":0.27477887617065555,"total":124,"current":65}
+{"_e":"metro:bundling:progress","_t":1782675787588,"id":"1","progress":0.4561288705725106,"total":268,"current":181}
+{"_e":"metro:bundling:progress","_t":1782675787687,"id":"1","progress":0.6590052498701674,"total":441,"current":358}
+{"_e":"metro:bundling:progress","_t":1782675787787,"id":"1","progress":0.915261330522661,"total":508,"current":486}
+{"_e":"metro:bundling:failed","_t":1782675787809,"id":"1","message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/SignupScreen.js: Unexpected token, expected \"}\" (70:11)\n\n  68 |\n  69 | const styles = StyleSheet.create({\n> 70 |   container: { flex: 1, backgroundColor: colors.background },\n     |            ^\n  71 |   contentContainer: { padding: spacing(3), justifyContent: \"center\", flexGrow: 1 },\n  72 |   eyebrow: { ...typography.caption, color: colors.accent, marginBottom: spacing(1) },\n  73 |   input: {","importStack":null,"filename":"src/screens/SignupScreen.js","targetModuleName":null,"originModulePath":null}
+{"_e":"root:init","_t":1782675840426,"format":"v0-jsonl","version":"56.1.16"}
+{"_e":"env:mode","_t":1782675840427,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1782675840431,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1782675840676,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1782675841146,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:server_log","_t":1782675841528,"level":"error","data":["An unknown error occurred while installing React Native DevTools. Details:\n\n/workspaces/Fish-Freshness-Indicator/mobile/node_modules/@react-native/debugger-shell/bin/react-native-devtools: error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory\n"]}
+{"_e":"metro:instantiate","_t":1782675845277,"atlas":false,"workers":1,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1782675852868,"id":"1","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782675852868,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782675852871,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782675853111,"id":"1","progress":0.07217643127645355,"total":67,"current":18}
+{"_e":"metro:bundling:progress","_t":1782675853114,"id":"1","progress":0.08041880151481398,"total":67,"current":19}
+{"_e":"metro:bundling:progress","_t":1782675853217,"id":"1","progress":0.42250000000000004,"total":160,"current":104}
+{"_e":"metro:bundling:progress","_t":1782675853317,"id":"1","progress":0.42250000000000004,"total":296,"current":185}
+{"_e":"metro:bundling:progress","_t":1782675853418,"id":"1","progress":0.6871537396121884,"total":456,"current":378}
+{"_e":"metro:bundling:failed","_t":1782675853514,"id":"1","message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/ResultScreen.js: Expected corresponding JSX closing tag for <ScrollView>. (38:4)\n\n  36 |         <Text style={styles.link}>Check another photo</Text>\n  37 |       </TouchableOpacity>\n> 38 |     </View>\n     |     ^\n  39 |   );\n  40 | }\n  41 |","importStack":null,"filename":"src/screens/ResultScreen.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:started","_t":1782675909048,"id":"3","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782675909055,"id":"3","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782675909064,"id":"3","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782675909181,"id":"3","progress":0.07217643127645355,"total":67,"current":18}
+{"_e":"metro:bundling:progress","_t":1782675909281,"id":"3","progress":0.3587510850694445,"total":192,"current":115}
+{"_e":"metro:bundling:progress","_t":1782675909385,"id":"3","progress":0.3900769467528471,"total":285,"current":178}
+{"_e":"metro:bundling:progress","_t":1782675909486,"id":"3","progress":0.6392081658660916,"total":404,"current":323}
+{"_e":"metro:bundling:progress","_t":1782675909587,"id":"3","progress":0.8297956039272895,"total":494,"current":450}
+{"_e":"metro:bundling:failed","_t":1782675909640,"id":"3","message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/SignupScreen.js: Unexpected token, expected \"}\" (70:11)\n\n  68 |\n  69 | const styles = StyleSheet.create({\n> 70 |   container: { flex: 1, backgroundColor: colors.background },\n     |            ^\n  71 |   contentContainer: { padding: spacing(3), justifyContent: \"center\", flexGrow: 1 },\n  72 |   eyebrow: { ...typography.caption, color: colors.accent, marginBottom: spacing(1) },\n  73 |   input: {","importStack":null,"filename":"src/screens/SignupScreen.js","targetModuleName":null,"originModulePath":null}
+{"_e":"root:init","_t":1782675988574,"format":"v0-jsonl","version":"56.1.16"}
+{"_e":"env:mode","_t":1782675988575,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1782675988578,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1782675988853,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1782675989419,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:server_log","_t":1782675989741,"level":"error","data":["An unknown error occurred while installing React Native DevTools. Details:\n\n/workspaces/Fish-Freshness-Indicator/mobile/node_modules/@react-native/debugger-shell/bin/react-native-devtools: error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory\n"]}
+{"_e":"metro:instantiate","_t":1782675993628,"atlas":false,"workers":1,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1782675998003,"id":"1","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782675998004,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782675998011,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782675998218,"id":"1","progress":0.07217643127645355,"total":67,"current":18}
+{"_e":"metro:bundling:progress","_t":1782675998221,"id":"1","progress":0.08041880151481398,"total":67,"current":19}
+{"_e":"metro:bundling:progress","_t":1782675998347,"id":"1","progress":0.28329864724245574,"total":124,"current":66}
+{"_e":"metro:bundling:progress","_t":1782675998447,"id":"1","progress":0.3671285398820646,"total":203,"current":123}
+{"_e":"metro:bundling:progress","_t":1782675998547,"id":"1","progress":0.43153717745586234,"total":376,"current":247}
+{"_e":"metro:bundling:progress","_t":1782675998678,"id":"1","progress":0.8371879558753627,"total":494,"current":452}
+{"_e":"metro:bundling:failed","_t":1782675998715,"id":"1","message":"Error: /workspaces/Fish-Freshness-Indicator/mobile/src/screens/SignupScreen.js: Unexpected token, expected \"}\" (70:11)\n\n  68 |\n  69 | const styles = StyleSheet.create({\n> 70 |   container: { flex: 1, backgroundColor: colors.background },\n     |            ^\n  71 |   contentContainer: { padding: spacing(3), justifyContent: \"center\", flexGrow: 1 },\n  72 |   eyebrow: { ...typography.caption, color: colors.accent, marginBottom: spacing(1) },\n  73 |   input: {","importStack":null,"filename":"src/screens/SignupScreen.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:started","_t":1782676124638,"id":"3","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1782676124638,"id":"3","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782676124704,"id":"3","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1782676124807,"id":"3","progress":0.07038733860891296,"total":49,"current":13}
+{"_e":"metro:bundling:progress","_t":1782676124909,"id":"3","progress":0.25,"total":88,"current":44}
+{"_e":"metro:bundling:progress","_t":1782676125268,"id":"3","progress":0.28329864724245574,"total":124,"current":66}
+{"_e":"metro:bundling:progress","_t":1782676125375,"id":"3","progress":0.3417751479289941,"total":130,"current":76}
+{"_e":"metro:bundling:progress","_t":1782676125476,"id":"3","progress":0.42984956800140345,"total":151,"current":99}
+{"_e":"metro:bundling:progress","_t":1782676125577,"id":"3","progress":0.42984956800140345,"total":244,"current":151}
+{"_e":"metro:bundling:progress","_t":1782676125677,"id":"3","progress":0.45370345512631205,"total":386,"current":260}
+{"_e":"metro:bundling:progress","_t":1782676125779,"id":"3","progress":0.6879694733164468,"total":428,"current":355}
+{"_e":"metro:bundling:progress","_t":1782676125892,"id":"3","progress":0.8297956039272895,"total":494,"current":450}
+{"_e":"metro:bundling:done","_t":1782676125976,"id":"3","total":494,"ms":1338.467743}
+{"_e":"metro:bundling:started","_t":1782676126845,"id":"4","platform":"web","environment":null,"entry":"node_modules/expo/AppEntry.js"}
+{"_e":"metro:client_log","_t":1782676127298,"level":"warn","data":["\"shadow*\" style props are deprecated. Use \"boxShadow\"."]}
+{"_e":"metro:client_log","_t":1782676127299,"level":"log","data":["Running application \"main\" with appParams:\n","{\"hydrate\": undefined, \"rootTag\": \"#root\"}","\nDevelopment-level warnings: ON.\nPerformance optimizations: OFF."]}
+{"_e":"metro:client_log","_t":1782676127299,"level":"warn","data":["props.pointerEvents is deprecated. Use style.pointerEvents"]}
+{"_e":"metro:client_log","_t":1782676135622,"level":"warn","data":["Image: style.resizeMode is deprecated. Please use props.resizeMode."]}
+{"_e":"metro:client_log","_t":1782676135630,"level":"warn","data":["Image: style.tintColor is deprecated. Please use props.tintColor."]}
+{"_e":"metro:client_log","_t":1782676139863,"level":"warn","data":["Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md"]}

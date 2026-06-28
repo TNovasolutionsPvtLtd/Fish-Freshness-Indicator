@@ -42,7 +42,8 @@ export default function UserManagementScreen() {
       <FlatList
         data={users}
         keyExtractor={(item) => item._id}
-        contentContainerStyle={{ marginTop: spacing(2) }}
+        contentContainerStyle={{ marginTop: spacing(2), paddingBottom: spacing(4) }}
+        ListFooterComponent={<View style={{ height: spacing(4) }} />}
         renderItem={({ item }) => (
           <View style={styles.row}>
             <View style={{ flex: 1 }}>
