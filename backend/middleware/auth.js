@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-const User = require("../models/User");
+const { findUserById } = require("../config/db");
 
 // Verifies the JWT sent in the Authorization header and attaches the
 // authenticated user to req.user. Used on every protected route.
@@ -13,7 +13,7 @@ async function requireAuth(req, res, next) {
     }
 
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
-    const user = await User.findById(decoded.id).select("-password");
+    const user = findUserById(decoded.id);
 
     if (!user) {
       return res.status(401).json({ error: "User no longer exists" });

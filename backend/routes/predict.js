@@ -2,8 +2,8 @@ const express = require("express");
 const path = require("path");
 const requireAuth = require("../middleware/auth");
 const upload = require("../utils/upload");
-const Prediction = require("../models/Prediction");
 const { predictFreshness } = require("../utils/mlPredict");
+const { createPrediction } = require("../config/db");
 
 const router = express.Router();
 
@@ -17,10 +17,9 @@ router.post("/", requireAuth, upload.single("image"), async (req, res) => {
 
     const { result, confidence, explanation, modelType } = await predictFreshness(req.file.path);
 
-    // Build a URL the mobile app can use to redisplay the uploaded photo.
     const imageUrl = `${req.protocol}://${req.get("host")}/uploads/${path.basename(req.file.path)}`;
 
-    const prediction = await Prediction.create({
+    const prediction = createPrediction({
       user: req.user._id,
       imageUrl,
       species: req.body.species,

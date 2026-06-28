@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, KeyboardAvoidingView, Platform } from "react-native";
 import { useAuth } from "../context/AuthContext";
+import { useToast } from "../context/ToastContext";
 import { colors, spacing, radii, typography } from "../theme/theme";
 
 export default function SignupScreen({ navigation }) {
   const { signup } = useAuth();
+  const { showToast } = useToast();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -24,7 +26,9 @@ export default function SignupScreen({ navigation }) {
       // On register: auto-login and redirect to Dashboard happens automatically
       // because the navigator switches stacks once `user` is set.
     } catch (err) {
-      setError(err?.response?.data?.error || "Could not create account.");
+      const message = err?.response?.data?.error || "Could not create account.";
+      setError(message);
+      showToast(message);
     } finally {
       setSubmitting(false);
     }

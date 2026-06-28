@@ -2,6 +2,7 @@ import React, { useCallback, useState } from "react";
 import { View, Text, TouchableOpacity, StyleSheet, FlatList, Image, RefreshControl } from "react-native";
 import { useFocusEffect } from "@react-navigation/native";
 import { useAuth } from "../context/AuthContext";
+import { useToast } from "../context/ToastContext";
 import api from "../services/api";
 import { colors, spacing, radii, typography, freshnessColor } from "../theme/theme";
 
@@ -10,14 +11,16 @@ export default function DashboardScreen({ navigation }) {
   const [history, setHistory] = useState([]);
   const [refreshing, setRefreshing] = useState(false);
 
+  const { showToast } = useToast();
+
   const loadHistory = useCallback(async () => {
     try {
       const { data } = await api.get("/history");
       setHistory(data);
     } catch (err) {
-      // Silently ignore - dashboard still usable without history
+      showToast(err?.response?.data?.error || "Unable to load history.");
     }
-  }, []);
+  }, [showToast]);
 
   useFocusEffect(
     useCallback(() => {

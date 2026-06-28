@@ -13,10 +13,17 @@ export function AuthProvider({ children }) {
     (async () => {
       const storedToken = await AsyncStorage.getItem("token");
       const storedUser = await AsyncStorage.getItem("user");
+
       if (storedToken && storedUser) {
         setToken(storedToken);
-        setUser(JSON.parse(storedUser));
+        try {
+          setUser(JSON.parse(storedUser));
+        } catch (err) {
+          console.warn("Failed to parse stored user data", err);
+          await AsyncStorage.removeItem("user");
+        }
       }
+
       setLoading(false);
     })();
   }, []);

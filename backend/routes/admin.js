@@ -3,9 +3,18 @@ const path = require("path");
 const requireAuth = require("../middleware/auth");
 const requireAdmin = require("../middleware/admin");
 const upload = require("../utils/upload");
-const Image = require("../models/Image");
-const Prediction = require("../models/Prediction");
-const User = require("../models/User");
+const {
+  getImages,
+  createImage,
+  updateImageStatus,
+  countImages,
+  countPredictions,
+  countUsers,
+  countPredictionsSince,
+  getUsers,
+  getPredictionCountsByUser,
+  updateUserFlagged,
+} = require("../config/db");
 
 const router = express.Router();
 
@@ -26,7 +35,7 @@ router.post("/images", upload.single("image"), async (req, res) => {
 
     const imageUrl = `${req.protocol}://${req.get("host")}/uploads/${path.basename(req.file.path)}`;
 
-    const image = await Image.create({
+    const image = createImage({
       filename: req.file.filename,
       species,
       timeHours: Number(timeHours),
@@ -43,19 +52,10 @@ router.post("/images", upload.single("image"), async (req, res) => {
 });
 
 // GET /admin/images - browse dataset, filter by species/freshness/date
-router.get("/images", async (req, res) => {
+router.get("/images", (req, res) => {
   try {
     const { species, freshnessClass, from, to } = req.query;
-    const filter = {};
-    if (species) filter.species = species;
-    if (freshnessClass) filter.freshnessClass = freshnessClass;
-    if (from || to) {
-      filter.createdAt = {};
-      if (from) filter.createdAt.$gte = new Date(from);
-      if (to) filter.createdAt.$lte = new Date(to);
-    }
-
-    const images = await Image.find(filter).sort({ createdAt: -1 }).limit(500);
+    const images = getImages({ species, freshnessClass, from, to }).slice(0, 500);
     res.json(images);
   } catch (err) {
     res.status(500).json({ error: "Failed to fetch images", details: err.message });
@@ -63,14 +63,14 @@ router.get("/images", async (req, res) => {
 });
 
 // PATCH /admin/images/:id - approve or reject a dataset image
-router.patch("/images/:id", async (req, res) => {
+router.patch("/images/:id", (req, res) => {
   try {
     const { status } = req.body; // "approved" | "rejected"
     if (!["approved", "rejected", "pending"].includes(status)) {
       return res.status(400).json({ error: "status must be approved, rejected or pending" });
     }
 
-    const image = await Image.findByIdAndUpdate(req.params.id, { status }, { new: true });
+    const image = updateImageStatus(req.params.id, status);
     if (!image) return res.status(404).json({ error: "Image not found" });
 
     res.json(image);
@@ -80,17 +80,15 @@ router.patch("/images/:id", async (req, res) => {
 });
 
 // GET /admin/stats - dashboard counts
-router.get("/stats", async (req, res) => {
+router.get("/stats", (req, res) => {
   try {
-    const [imageCount, predictionCount, userCount] = await Promise.all([
-      Image.countDocuments(),
-      Prediction.countDocuments(),
-      User.countDocuments({ role: "user" }),
-    ]);
+    const imageCount = countImages();
+    const predictionCount = countPredictions();
+    const userCount = countUsers({ role: "user" });
 
     const startOfDay = new Date();
     startOfDay.setHours(0, 0, 0, 0);
-    const predictionsToday = await Prediction.countDocuments({ createdAt: { $gte: startOfDay } });
+    const predictionsToday = countPredictionsSince(startOfDay);
 
     res.json({ imageCount, predictionCount, predictionsToday, userCount });
   } catch (err) {
@@ -99,18 +97,14 @@ router.get("/stats", async (req, res) => {
 });
 
 // GET /admin/users - list registered users with their prediction counts
-router.get("/users", async (req, res) => {
+router.get("/users", (req, res) => {
   try {
-    const users = await User.find({ role: "user" }).select("-password").sort({ createdAt: -1 });
-
-    const counts = await Prediction.aggregate([
-      { $group: { _id: "$user", count: { $sum: 1 } } },
-    ]);
-    const countMap = Object.fromEntries(counts.map((c) => [String(c._id), c.count]));
+    const users = getUsers({ role: "user" });
+    const counts = getPredictionCountsByUser();
 
     const result = users.map((u) => ({
-      ...u.toObject(),
-      predictionCount: countMap[String(u._id)] || 0,
+      ...u,
+      predictionCount: counts[u._id] || 0,
     }));
 
     res.json(result);
@@ -120,14 +114,10 @@ router.get("/users", async (req, res) => {
 });
 
 // PATCH /admin/users/:id - flag/unflag a suspicious account
-router.patch("/users/:id", async (req, res) => {
+router.patch("/users/:id", (req, res) => {
   try {
     const { flagged } = req.body;
-    const user = await User.findByIdAndUpdate(
-      req.params.id,
-      { flagged: !!flagged },
-      { new: true }
-    ).select("-password");
+    const user = updateUserFlagged(req.params.id, flagged);
 
     if (!user) return res.status(404).json({ error: "User not found" });
     res.json(user);
