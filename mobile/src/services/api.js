@@ -1,10 +1,16 @@
 import axios from "axios";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
-// Point this at your backend. When testing on a physical device with Expo Go,
-// use your computer's LAN IP (e.g. http://192.168.1.20:5000), not localhost.
+const getApiBaseUrl = () => {
+  if (typeof window !== "undefined" && window.location?.origin) {
+    const origin = window.location.origin;
+    return origin.replace(/:8081(?=\/|$)/, ":5000").replace(/-8081\./, "-5000.");
+  }
 
-export const API_BASE_URL = "https://glowing-couscous-9669vjjv97qxh77jx-5000.app.github.dev";
+  return "http://localhost:5000";
+};
+
+export const API_BASE_URL = getApiBaseUrl();
 
 const api = axios.create({ baseURL: API_BASE_URL });
 
